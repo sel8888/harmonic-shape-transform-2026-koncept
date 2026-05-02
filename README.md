@@ -78,7 +78,7 @@ Specific instances include, but are not limited to, mappings induced by Laplace 
 
 The full concept is described in the PDF included in this repository:
 
-- **harmonic-shape-transform-2026-koncept.pdf**
+- **HST-Concept-2026-v1.pdf**
 
 This document establishes the idea, definitions, and potential applications.
 
