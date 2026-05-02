@@ -73,6 +73,34 @@ General Harmonic Shape Transform (HST)
 HST is defined as a class of mappings between shapes ΩA,ΩB constructed via scalar functions fA,fB defined on these shapes, where the mapping preserves normalized function levels.
 Specific instances include, but are not limited to, mappings induced by Laplace eigenfunctions, heat kernel signatures, wave kernel signatures, signed distance functions, curvature-based functions, or any other smooth scalar fields.
 
+   Shape A                         Shape B
+  (Ω_A)                            (Ω_B)
+     ●                                ●
+   ●   ●                            ●   ●
+  ●     ●                          ●     ●
+   ●   ●                            ●   ●
+     ●                                ●
+
+     │                                │
+     │ f_A(x)                         │ f_B(y)
+     ▼                                ▼
+
+  ┌──────────────────────────────────────────┐
+  │      Normalized Scalar Fields            │
+  │   𝑓̃_A(x)  ─────────────→  𝑓̃_B(y)        │
+  └──────────────────────────────────────────┘
+
+     │                                │
+     ▼                                ▼
+
+   Level sets                     Level sets
+  of 𝑓̃_A(x)                      of 𝑓̃_B(y)
+
+     │                                │
+     └─────────────── T(x) ───────────┘
+
+
+
 ## 📄 Document
 
 The full concept is described in the PDF included in this repository:
