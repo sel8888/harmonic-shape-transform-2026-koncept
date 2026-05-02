@@ -90,4 +90,5 @@ This project is released under the GNU General Public License v3.0 (GPL‑3.0).
 Commercial use, proprietary redistribution, or closed-source modifications are not permitted.  
 Any reuse or modification must remain open-source under GPL‑3.0 and must credit the original author.
 
-Commercial licensing available upon request
+Commercial licensing available upon request.
+Contact the author for closed‑source or commercial use.
