@@ -148,7 +148,9 @@ Any commercial, proprietary, or closed‑source use of the HST concept — inclu
 No company or individual is permitted to integrate HST into closed‑source software, AI models, or commercial products without obtaining such a license.
 4. Prohibition of Unauthorized Integration
 
-Unauthorized integration of the HST concept into proprietary codebases, AI systems, or commercial pipelines constitutes a violation of copyright and license terms.
+Unauthorized integration of the HST concept into proprietary codebases, AI systems, or commercial pipelines constitutes a violation of copyright and license terms.¨
+
+python hst_example.py
 This includes both direct use and derivative implementations based on the definitions provided in this repository.
 5. Proof of Authorship
 
