@@ -1,62 +1,63 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.ndimage import distance_transform_edt
+from scipy.sparse import csr_matrix, lil_matrix
+from scipy.sparse.linalg import eigsh
 
-def create_shape_field(shape_type, size=200):
+def compute_harmonic_notes(mask, n_notes=5):
     """
-    Vytvoří doménu (tvar) a vypočítá na ní skalární pole (f).
-    Odpovídá sekci 7.1 a 7.2 patentové přihlášky.
+    Vypočítá vlastní funkce Laplaceova operátoru na masce tvaru.
+    Odpovídá Claimu 6: Harmonic Note Transform.
     """
-    grid = np.zeros((size, size))
-    center = size // 2
+    rows, cols = mask.shape
+    # Mapování indexů pixelů uvnitř tvaru na matici
+    pixels = np.argwhere(mask)
+    pixel_to_idx = {tuple(p): i for i, p in enumerate(pixels)}
+    n = len(pixels)
     
-    if shape_type == "circle": # Shape A
-        y, x = np.ogrid[:size, :size]
-        mask = (x - center)**2 + (y - center)**2 <= (size//3)**2
-    else: # Shape B (Square)
-        mask = np.zeros((size, size), dtype=bool)
-        mask[size//4:3*size//4, size//4:3*size//4] = True
-        
-    grid[mask] = 1
-    # Výpočet skalárního pole f (zde pomocí distance transform) [cite: 100]
-    field = distance_transform_edt(grid)
-    return field, mask
+    # Sestavení diskrétní Laplaceovy matice (L)
+    L = lil_matrix((n, n))
+    for i, (r, c) in enumerate(pixels):
+        neighbors = [(r-1, c), (r+1, c), (r, c-1), (r, c+1)]
+        count = 0
+        for nr, nc in neighbors:
+            if (nr, nc) in pixel_to_idx:
+                L[i, pixel_to_idx[(nr, nc)]] = 1
+                count += 1
+        L[i, i] = -count  # Diagonála (počet sousedů)
 
-def normalize_field(field, mask):
-    """
-    Normalizace pole do rozsahu [0, 1].
-    Odpovídá sekci 7.3 a Claim 2[cite: 106, 109, 150].
-    """
-    f_min, f_max = field[mask].min(), field[mask].max()
-    normalized = np.zeros_like(field)
-    normalized[mask] = (field[mask] - f_min) / (f_max - f_min)
-    return normalized
+    # Výpočet vlastních čísel a funkcí (eigsh pro symetrické řídké matice)
+    # Hledáme nejmenší vlastní čísla (SM = Smallest Magnitude)
+    eigenvalues, eigenfunctions = eigsh(L.tocsr(), k=n_notes, which='SM')
+    
+    return eigenvalues, eigenfunctions, pixels
 
-# 1. Definice tvarů a polí (Claim 1a) [cite: 147]
-field_a, mask_a = create_shape_field("circle")
-field_b, mask_b = create_shape_field("square")
+# 1. Příprava tvaru (např. Genus 1 - Donut/Ring pro Claim 4)
+size = 60
+mask = np.zeros((size, size), dtype=bool)
+y, x = np.ogrid[:size, :size]
+center = size // 2
+# Donut
+mask_outer = (x - center)**2 + (y - center)**2 <= (size//2.5)**2
+mask_inner = (x - center)**2 + (y - center)**2 <= (size//6)**2
+mask = mask_outer ^ mask_inner 
 
-# 2. Normalizace polí (Claim 1b) [cite: 148]
-norm_a = normalize_field(field_a, mask_a)
-norm_b = normalize_field(field_b, mask_b)
+# 2. Výpočet harmonických nót (Claim 6)
+n_notes = 6
+evals, evecs, pixels = compute_harmonic_notes(mask, n_notes=n_notes)
 
-# 3. Vizualizace HST (Claim 3 & 4) [cite: 151, 152]
-fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+# 3. Vizualizace první nenulové harmonické nóty (Fiedler vector / 1. mód)
+# Poznámka: Index 0 je obvykle konstantní funkce (triviální řešení)
+note_idx = 1 
+field = np.zeros((size, size))
+for i, (r, c) in enumerate(pixels):
+    field[r, c] = evecs[i, note_idx]
 
-# Zobrazení izočar (Level Sets) - to jsou ty tvé "noty" [cite: 22, 125]
-levels = [0.2, 0.5, 0.8]
-cp1 = axes[0].contour(norm_a, levels=levels, colors='white')
-axes[0].imshow(norm_a, cmap='viridis')
-axes[0].set_title("Shape A (Circle) - Normalized Field")
+# Normalizace pro HST (Claim 2)
+f_min, f_max = field[mask].min(), field[mask].max()
+normalized_note = (field - f_min) / (f_max - f_min)
 
-cp2 = axes[1].contour(norm_b, levels=levels, colors='white')
-axes[1].imshow(norm_b, cmap='magma')
-axes[1].set_title("Shape B (Square) - Normalized Field")
-
-plt.suptitle("Harmonic Shape Transform: Matching by Normalized Values")
+plt.figure(figsize=(8, 6))
+plt.imshow(normalized_note, cmap='RdBu_r')
+plt.colorbar(label="Normalized Harmonic Value (0.0 - 1.0)")
+plt.title(f"Harmonic Note # {note_idx} on Genus-1 Shape\n(Topology-Independent Identity)")
 plt.show()
-
-# Příklad mapování (Claim 1c): Najdeme bod na čtverci, který odpovídá středu kruhu [cite: 149]
-val_at_center_a = norm_a[100, 100] # Hodnota 1.0 (střed)
-matches_in_b = np.where(np.isclose(norm_b, val_at_center_a, atol=0.01))
-print(f"Bod se skalární hodnotou {val_at_center_a:.2f} z kruhu mapuje na {len(matches_in_b[0])} bodů ve čtverci.")
