@@ -1,3 +1,6 @@
+# License: GNU GPL v3 + Custom Research Protection
+# See LICENSE file for details.
+
 import bpy
 import bmesh
 import numpy as np
