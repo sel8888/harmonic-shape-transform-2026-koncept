@@ -1,4 +1,5 @@
-# Harmonic Shape Transform (HST)
+# Harmonic Shape Transform (HST) <-> Harmonic Semantic Topology
+Harmonic Semantic Topology
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
 This repository contains the first public description of the **Harmonic Shape Transform (HST)** — a new mathematical concept for transforming shapes using the internal harmonic structure of a domain. The idea is based on the observation that every shape has its own *harmonic note*, defined as a normalized eigenfunction of the Laplace operator. This harmonic note can serve as a universal intermediate representation between shapes.
