@@ -160,5 +160,7 @@ The public timestamp of this repository, together with the included PDF document
 
 For commercial licensing, research collaboration, or inquiries regarding permitted use, please contact the author directly.
 
+🚀 Try the Blender Addon: Switch to the blender-addon branch to download the interactive validation tool.
+
 Commercial licensing available upon request.
 Contact the author for closed‑source or commercial use.
