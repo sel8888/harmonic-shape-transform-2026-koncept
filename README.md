@@ -113,7 +113,7 @@ When simulating clothing, folds often create "false contact points" that change 
 
 ## 🛠️ Installation & Usage
 
-1. Download the `hst_addon.py` from the [addon/](addon/) directory.
+1. Download the `hst_addon.py` from the [addon/](blender-addon/) directory.
 2. In Blender, go to **Edit > Preferences > Add-ons > Install...** and select the file.
 3. Enable **Object: HST Ultra Validation Suite**.
 4. Find the HST panel in the **3D Viewport (N-panel)**.
