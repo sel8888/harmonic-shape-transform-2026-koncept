@@ -149,8 +149,8 @@ Below is an overview of officially published results from classical and deep-lea
 | **Smooth Shell Maps** | 2020 | Classical | 0.10–0.12 | 5–10 min | High accuracy, heavy computation |
 | **FMNet + ZoomOut** | 2017 | Deep Learning | 0.12–0.15 | 0.01 s + 30–60 s | Requires training on FAUST |
 | **HSN (Spectral Networks)** | 2021 | Deep Learning | 0.08–0.10 | 0.02 s | State-of-the-art DL, training required |
-| **HST Note (ours)** | 2025 | Classical | **0.10–0.12** | **0.16 s** | No training, extremely fast |
-| **HST Note – unstable mode** | 2025 | Classical | 0.45–0.55 | 0.16 s | Rare bad convergence (fixed via fallback) |
+| **HST Note (ours)** | 2026 | Classical | **0.10–0.12** | **0.16 s** | No training, extremely fast |
+| **HST Note – unstable mode** | 2026 | Classical | 0.45–0.55 | 0.16 s | Rare bad convergence (fixed via fallback) |
 
 ### 🏆 Summary
 - **Fastest classical method** by a huge margin  
