@@ -165,19 +165,19 @@ class HST_BENCH_PT_PANEL(bpy.types.Panel):
         sc = context.scene
 
         col = layout.column(align=True)
-        col.label(text="Objekty")
+        col.label(text="Objects")
         col.prop(sc, "hstb_source", text="Source (A)")
         col.prop(sc, "hstb_target", text="Target (B)")
 
         col.separator()
-        col.label(text="Nastavení ZoomOut")
+        col.label(text="ZoomOut Settings")
         col.prop(sc, "hstb_k_eigen")
         col.prop(sc, "hstb_k_init")
         col.prop(sc, "hstb_k_step")
         col.prop(sc, "hstb_k_final")
 
         col.separator()
-        col.label(text="Vizualizace")
+        col.label(text="Vizualization")
         col.prop(sc, "hstb_show_notes")
         col.prop(sc, "hstb_show_errors")
 
@@ -187,11 +187,11 @@ class HST_BENCH_PT_PANEL(bpy.types.Panel):
         col.operator("mesh.hstb_run_zoom", text="Jen ZoomOut", icon='MOD_SMOOTH')
 
         col.separator()
-        col.prop(sc, "hstb_csv_path", text="CSV výstup")
+        col.prop(sc, "hstb_csv_path", text="CSV export")
         col.operator("mesh.hstb_export_csv", text="Export CSV", icon='EXPORT')
 
         col.separator()
-        col.label(text="Výsledky:")
+        col.label(text="Results:")
         box = col.box()
         for line in sc.hstb_report.split('\n'):
             box.label(text=line)
@@ -211,7 +211,7 @@ class HST_BENCH_OT_RUN_ALL(bpy.types.Operator):
         objB = sc.hstb_target
 
         if not objA or not objB:
-            self.report({'ERROR'}, "Vyber Source a Target objekt.")
+            self.report({'ERROR'}, "Select Source and Target object.")
             return {'CANCELLED'}
 
         verts_a = get_vertices(objA)
@@ -281,14 +281,14 @@ class HST_BENCH_OT_RUN_ALL(bpy.types.Operator):
         report = (
             f"=== BENCHMARK REPORT ===\n"
             f"Vrcholy A/B: {len(verts_a)} / {len(verts_b)}\n"
-            f"Eigenfunkce (k={k}): {t_eigen:.2f}s\n"
+            f"Eigenfunktion (k={k}): {t_eigen:.2f}s\n"
             f"------------------------\n"
             f"HST Note:      geo={geo_hst:.4f}  t={t_hst:.3f}s\n"
             f"Rand->ZoomOut: geo={geo_zoom_rand:.4f}  t={t_zoom_rand:.2f}s\n"
             f"HST->ZoomOut:  geo={geo_zoom_hst:.4f}  t={t_hst+t_zoom_hst:.2f}s\n"
             f"------------------------\n"
-            f"Zlepseni init: {imp:.1f}%\n"
-            f"Vitez:         {winner}\n"
+            f"Improvements init: {imp:.1f}%\n"
+            f"Winner:         {winner}\n"
         )
 
         sc.hstb_report = report
@@ -392,7 +392,7 @@ class HST_BENCH_OT_EXPORT_CSV(bpy.types.Operator):
         try:
             results = eval(sc.hstb_last_results)
         except Exception:
-            self.report({'ERROR'}, "Nejsou dostupné výsledky. Spusť benchmark.")
+            self.report({'ERROR'}, "No results are available. Run the benchmark.")
             return {'CANCELLED'}
 
         with open(csv_path, 'w', newline='', encoding='utf-8') as f:
