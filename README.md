@@ -1,4 +1,4 @@
-# Harmonic Shape Transform (HST) <-> Harmonic Semantic Topology
+# Harmonic Shape Transform (HST)
 Harmonic Semantic Topology
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
