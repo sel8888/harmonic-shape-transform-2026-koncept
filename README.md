@@ -127,6 +127,19 @@ When simulating clothing, folds often create "false contact points" that change 
    # Example for Windows (run as Administrator)
    ./blender -b --python-expr "import subprocess; subprocess.check_call(['pip', 'install', 'scipy'])"
 
+   ---
+
+### 📊 Dataset & Benchmarking
+To replicate the SOTA results and benchmarks shown above, I used the **MPI FAUST** dataset. This is the industry standard for testing human shape correspondence.
+
+*   **Official Source:** [Download FAUST Dataset](http://faust.is.tue.mpg.de/) (Registration required)
+*   **Methodology:** Benchmarks were performed on the "Training" set using models `reg_cont_000.ply` through `reg_cont_010.ply`.
+*   **Note on Licensing:** Due to the MPI FAUST license, these mesh files cannot be redistributed. Users must download them directly from the official provider.
+
+> **Tip:** If you don't have access to FAUST yet, you can test the addon's functionality on the standard Blender **Suzanne** (Monkey) mesh by duplicating it and applying various deformations.
+
+---
+
 ## ⚖️ Benchmarks: HST vs. ZoomOut (State-of-the-Art)
 
 To evaluate the practical efficiency of the HST framework, we conducted a head-to-head comparison with **ZoomOut** (Melzi et al.), the current industry standard for spectral correspondence refinement.
