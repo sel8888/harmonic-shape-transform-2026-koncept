@@ -117,11 +117,15 @@ When simulating clothing, folds often create "false contact points" that change 
 
 ## 🛠️ Installation & Usage
 
-1. Download the `hst_addon.py` from the [addon/](addon/) directory.
-2. In Blender, go to **Edit > Preferences > Add-ons > Install...** and select the file.
-3. Enable **Object: HST Ultra Validation Suite**.
-4. Find the HST panel in the **3D Viewport (N-panel)**.
+### Installation
 
+1. **Download** the [`hst_zoomout_benchmark_addonv1.py`](hst_zoomout_benchmark_addonv1.py) file from this repository.
+2. In Blender, go to **Edit > Preferences > Add-ons**.
+3. Click **Install...** and select the downloaded `hst_zoomout_benchmark_addonv1.py`.
+4. **Install Dependencies:** This addon requires `scipy`. Since Blender uses its own Python, you may need to install it via the Python Console inside Blender or via terminal:
+   ```bash
+   # Example for Windows (run as Administrator)
+   ./blender -b --python-expr "import subprocess; subprocess.check_call(['pip', 'install', 'scipy'])"
 
 ## ⚖️ Benchmarks: HST vs. ZoomOut (State-of-the-Art)
 
