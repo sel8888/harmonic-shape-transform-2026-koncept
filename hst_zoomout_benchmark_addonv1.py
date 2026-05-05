@@ -424,7 +424,7 @@ def register():
     bpy.types.Scene.hstb_target = bpy.props.PointerProperty(
         name="Target", type=bpy.types.Object)
     bpy.types.Scene.hstb_k_eigen = bpy.props.IntProperty(
-        name="Eigenmódů celkem", default=50, min=10, max=100)
+        name="Total number of eigenmodes", default=50, min=10, max=100)
     bpy.types.Scene.hstb_k_init = bpy.props.IntProperty(
         name="ZoomOut k_init", default=10, min=5, max=30)
     bpy.types.Scene.hstb_k_step = bpy.props.IntProperty(
@@ -432,9 +432,9 @@ def register():
     bpy.types.Scene.hstb_k_final = bpy.props.IntProperty(
         name="ZoomOut k_final", default=40, min=20, max=100)
     bpy.types.Scene.hstb_show_notes = bpy.props.BoolProperty(
-        name="Zobrazit harmonické nóty", default=True)
+        name="Show harmonic notes", default=True)
     bpy.types.Scene.hstb_show_errors = bpy.props.BoolProperty(
-        name="Zobrazit chyby mapování", default=True)
+        name="Show mapping errors", default=True)
     bpy.types.Scene.hstb_csv_path = bpy.props.StringProperty(
         name="CSV", default="//hst_benchmark.csv", subtype='FILE_PATH')
     bpy.types.Scene.hstb_report = bpy.props.StringProperty(
