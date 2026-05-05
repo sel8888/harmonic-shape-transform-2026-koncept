@@ -335,7 +335,7 @@ class HST_BENCH_OT_RUN_HST(bpy.types.Operator):
         report = (
             f"=== HST NOTE ===\n"
             f"Geo error: {geo:.5f}\n"
-            f"Cas: {t_total:.3f}s\n"
+            f"Time: {t_total:.3f}s\n"
         )
         sc.hstb_report = report
         print(report)
