@@ -183,8 +183,8 @@ class HST_BENCH_PT_PANEL(bpy.types.Panel):
 
         col.separator()
         col.operator("mesh.hstb_run_all", text="RUN BENCHMARK", icon='MOD_DATA_TRANSFER')
-        col.operator("mesh.hstb_run_hst", text="Jen HST Note", icon='FORCE_MAGNETIC')
-        col.operator("mesh.hstb_run_zoom", text="Jen ZoomOut", icon='MOD_SMOOTH')
+        col.operator("mesh.hstb_run_hst", text="Only HST2026 Note", icon='FORCE_MAGNETIC')
+        col.operator("mesh.hstb_run_zoom", text="Only ZoomOut", icon='MOD_SMOOTH')
 
         col.separator()
         col.prop(sc, "hstb_csv_path", text="CSV export")
