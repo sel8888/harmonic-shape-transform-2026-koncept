@@ -142,7 +142,8 @@ Tested on the FAUST dataset (non-isometric human poses).
 > **Implementation Note:** While optimized C++/MATLAB versions of ZoomOut are significantly faster than our Python test-bed, the O(1) complexity of the HST Note lookup remains fundamentally more efficient for real-time applications.
 
 ---
-<img width="1849" height="1034" alt="hst zoomout test 2026-05-05 09-44-23-393" src="https://github.com/user-attachments/assets/fa1f4a0b-bede-4d17-8046-70988a965cc9" />
+<img width="1843" height="986" alt="hst zoomout test 2026-05-05 09-44-23-393" src="https://github.com/user-attachments/assets/b45c905e-65c9-447f-83e2-204380d97b10" />
+
 
 ## 📊 Comparison of Shape Matching Methods on FAUST
 
