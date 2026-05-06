@@ -30,6 +30,36 @@ GPU parallelism becomes advantageous at millions of operations.
 
 ---
 
+## ZoomOut GPU Acceleration — Key Finding
+
+Tested with ZoomOut enabled (k_final=40):
+
+| Component | CPU | GPU | Speedup |
+|-----------|-----|-----|---------|
+| Eigenvectors | 0.612s | 2.682s | 0.2× |
+| HST mapping | 0.817s | 0.729s | 1.1× |
+| **ZoomOut** | **42.05s** | **1.79s** | **23.4×** |
+
+**ZoomOut nearest-neighbor search on GPU: 23.4× faster.**
+
+### Accuracy Issue
+
+GPU ZoomOut geo error (0.398) is worse than CPU (0.063).
+Root cause: float32 precision on GPU vs float64 on CPU in
+the functional map matrix C computation.
+
+Fix: use float64 for C matrix, float32 only for NN search.
+Expected result after fix: same accuracy as CPU, 23× speedup.
+
+### Implication for Full Benchmark
+
+If GPU ZoomOut accuracy is fixed:
+- Current CPU benchmark: 154 minutes (99 pairs)
+- Expected GPU benchmark: ~7 minutes (99 pairs)
+- Speedup: ~22×
+
+This makes real-time shape correspondence feasible.
+
 ## When GPU Would Help
 
 GPU acceleration is expected to provide significant speedup for:
