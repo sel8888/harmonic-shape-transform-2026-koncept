@@ -27,6 +27,7 @@ We welcome Pull Requests for optimizations and new features. The core of HST rel
 1. **Clone the repository:**
    ```bash
 git clone [https://github.com/sel8888/harmonic-shape-transform-2026-koncept.git](https://github.com/sel8888/harmonic-shape-transform-2026-koncept.git)
+
 2  Dependencies: Ensure you have numpy and scipy installed within your Blender's Python environment.
 
 3  Workflow: The main logic is contained within the HST_OT_Compute operator, while the UI is handled by HST_PT_Panel.
