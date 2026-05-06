@@ -1,5 +1,7 @@
 # Harmonic Shape Transform (HST)
 
+**Seeking arXiv endorser for cs.GR** — contact Pavel.krahulik.cestiny@gmail.com
+
 > *"If I have seen further, it is by standing on the shoulders of giants."*  
 > — Isaac Newton
 >
