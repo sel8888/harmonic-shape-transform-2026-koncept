@@ -21,9 +21,6 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 
 
 
-<img width="2044" height="896" alt="full test 99pair 2026-05-06 15-44-17-737" src="https://github.com/user-attachments/assets/af52c711-92a1-49eb-8948-69c0bbfd65a2" />
-
-
 [![Latest Release](https://img.shields.io/github/v/release/sel8888/harmonic-shape-transform-2026-koncept?color=blue&label=Latest%20Version)](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
 
 ## 🏆 v3.0.0 — Full FAUST Benchmark
@@ -33,6 +30,9 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 **[Download v3.0.0](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)**
 
 ## Benchmark Results — Full FAUST Dataset
+
+
+<img width="2044" height="896" alt="full test 99pair 2026-05-06 15-44-17-737" src="https://github.com/user-attachments/assets/af52c711-92a1-49eb-8948-69c0bbfd65a2" />
 
 ## 📄 Preprint
 
