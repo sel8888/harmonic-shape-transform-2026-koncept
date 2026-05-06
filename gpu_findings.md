@@ -1,78 +1,60 @@
-# HST GPU Benchmark — Findings
+## Full FAUST GPU Benchmark — 99 Pairs (RTX 4070)
 
-**Hardware:** NVIDIA RTX 4070 (12GB VRAM, CUDA 12.9, CC 89)  
-**Dataset:** FAUST tr_reg_000 → tr_reg_001 (6890 vertices)  
-**Date:** May 2026
+### Results
 
----
+| Method | Mean geo error | Time | vs CPU |
+|--------|---------------|------|--------|
+| HST Note | 0.129 | 0.844s | — |
+| Random → ZoomOut (GPU) | 0.349 | 6.98s | **6.1×** |
+| HST Note → ZoomOut (GPU) | **0.195** | 7.82s | **6.1×** |
 
-## Results
+- Random → ZoomOut wins: **0/99 pairs** (identical to CPU benchmark)
+- HST init improvement: **41.5%** average (median 51.0%)
+- HST Note wins: **66/99 pairs**
 
-| Component | CPU | GPU | Speedup |
-|-----------|-----|-----|---------|
-| Eigenvectors (k=2) | 0.650s | 2.637s | 0.2× |
-| HST mapping | 0.806s | 0.732s | 1.1× |
-| **Total** | **~0.8s** | **~3.4s** | **0.2×** |
+### Total Benchmark Time (99 pairs)
 
-**Conclusion: CPU is faster than GPU for FAUST-scale meshes (6890 vertices).**
+| Scenario | Time |
+|----------|------|
+| CPU — HST only | 1.3 min |
+| CPU — HST + ZoomOut | 142 min |
+| **GPU — HST + ZoomOut** | **13 min** |
 
----
+GPU reduces full pipeline time from **142 minutes to 13 minutes** — 
+an 11× speedup with identical accuracy.
 
-## Why GPU Does Not Help Here
+width="2380" height="740" alt="hst_gpu_final" src="https://github.com/user-attachments/assets/96fff848-a7d3-4c4a-ae00-b68fa735bf54" />
 
-**Eigenvectors** — scipy ARPACK is a sparse solver computing only k=2
-eigenvectors. The GPU implementation (CuPy `linalg.eigh`) computes all
-6890 eigenvectors and is inherently slower for small k.
+### Analysis
 
-**HST mapping** — 6890 nearest-neighbor lookups is too small to
-compensate for CPU→GPU→CPU data transfer overhead.
-GPU parallelism becomes advantageous at millions of operations.
+The GPU acceleration comes entirely from the ZoomOut nearest-neighbor
+search component. For each ZoomOut iteration, the algorithm must find
+the closest point in k-dimensional spectral space for all 6890 vertices
+simultaneously. This is a highly parallelizable operation — exactly the
+type of workload where GPU excels.
 
----
+The functional map matrix C is computed on CPU in float64 for numerical
+accuracy. Only the nearest-neighbor distance computation is offloaded to
+GPU in float64, which provides the speedup without sacrificing precision.
 
-## ZoomOut GPU Acceleration — Key Finding
+Eigenvectors remain on CPU because scipy ARPACK sparse solver computes
+only k=2 eigenvectors directly. GPU full eigendecomposition (eigh) would
+compute all 6890 eigenvectors — fundamentally slower for small k regardless
+of GPU speed.
 
-Tested with ZoomOut enabled (k_final=40):
+### Consistency
 
-| Component | CPU | GPU | Speedup |
-|-----------|-----|-----|---------|
-| Eigenvectors | 0.612s | 2.682s | 0.2× |
-| HST mapping | 0.817s | 0.729s | 1.1× |
-| **ZoomOut** | **42.05s** | **1.79s** | **23.4×** |
+GPU results are fully consistent with CPU benchmark:
+- Same geo error values (float64 precision preserved)
+- Same winner distribution (Random→ZoomOut never wins)
+- Same HST init improvement (~42%)
 
-**ZoomOut nearest-neighbor search on GPU: 23.4× faster.**
+This confirms that GPU acceleration does not introduce any numerical
+artifacts or changes in result quality.
 
-### Accuracy Issue
+### Hardware Note
 
-GPU ZoomOut geo error (0.398) is worse than CPU (0.063).
-Root cause: float32 precision on GPU vs float64 on CPU in
-the functional map matrix C computation.
+Tested on NVIDIA RTX 4070 (12GB VRAM, CUDA 12.9, Compute Capability 8.9).
+CuPy 14.0.1 with nvidia-cusolver-cu12.
+CPU: scipy 1.17.1, ARPACK sparse eigensolver.
 
-Fix: use float64 for C matrix, float32 only for NN search.
-Expected result after fix: same accuracy as CPU, 23× speedup.
-
-### Implication for Full Benchmark
-
-If GPU ZoomOut accuracy is fixed:
-- Current CPU benchmark: 154 minutes (99 pairs)
-- Expected GPU benchmark: ~7 minutes (99 pairs)
-- Speedup: ~22×
-
-This makes real-time shape correspondence feasible.
-
-## When GPU Would Help
-
-GPU acceleration is expected to provide significant speedup for:
-
-- Meshes with **100k+ vertices** where ARPACK also becomes slow
-- **Batch processing** of hundreds of pairs in parallel
-- **ZoomOut with large k_final** (k=200+) where NN search dominates
-
----
-
-## Recommendation
-
-For FAUST-scale benchmarks (6890 vertices), **CPU is the optimal backend.**
-The HST addon automatically falls back to CPU — no configuration needed.
-
-GPU support remains available in the addon for future testing on larger meshes.
