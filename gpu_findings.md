@@ -23,7 +23,7 @@
 GPU reduces full pipeline time from **142 minutes to 13 minutes** — 
 an 11× speedup with identical accuracy.
 
-width="2380" height="740" alt="hst_gpu_final" src="https://github.com/user-attachments/assets/96fff848-a7d3-4c4a-ae00-b68fa735bf54" />
+<img width="2380" height="740" alt="hst_gpu_final" src="https://github.com/user-attachments/assets/0ed44b8c-c171-4e70-ba2b-962e97392178" />
 
 ### Analysis
 
