@@ -5,6 +5,13 @@ First off, thank you for considering contributing to HST! It's community members
 ## 🚀 How Can You Help?
 
 ### 1. Reporting Bugs
+¨# Contributing to HST (Harmonic Shape Transform)
+
+First off, thank you for considering contributing to HST! It's community members like you that make this tool better for everyone. By contributing to this project, you help us advance semantic geometry within the open-source ecosystem.
+
+## 🚀 How Can You Help?
+
+### 1. Reporting Bugs
 If you find a bug, please open an **Issue**. To help us fix it faster, please include:
 * Your Blender version.
 * Your Operating System.
@@ -12,23 +19,21 @@ If you find a bug, please open an **Issue**. To help us fix it faster, please in
 * (Optional) A screenshot of the System Console or a sample `.blend` file.
 
 ### 2. Feature Requests
-Have an idea for a new feature? We’d love to hear it! Open an issue and label it as `enhancement`. We are particularly interested in use cases for:
-* Denoising pipelines.
-* Semantic rigging and skinning.
-* Real-time mesh correspondence.
+Have an idea for a new feature? We’d love to hear it! Open an issue and label it as `enhancement`. We are particularly interested in:
+* Denoising pipelines and AI-assisted rendering.
+* Semantic rigging and skinning stability.
+* Real-time mesh correspondence for VFX.
 
 ### 3. Code Contributions
-We welcome Pull Requests for optimizations and new features. The core of HST relies on `numpy` and `scipy`.
-* **Optimization:** If you can speed up the Laplacian computation or Eigen-decomposition, let's talk!
-* **Integration:** Help us build better bridges to Cycles, Eevee, or Geometry Nodes.
+We welcome Pull Requests for optimizations and new features.
+* **Optimization:** Improvements to Laplacian computation or Eigen-decomposition (NumPy/SciPy).
+* **Integration:** Enhanced bridges to Cycles, Eevee, or Geometry Nodes.
 
 ## 🛠️ Development Setup
 
 1. **Clone the repository:**
-  1. **Clone the repository:**
    ```bash
    git clone [https://github.com/sel8888/harmonic-shape-transform-2026-koncept.git](https://github.com/sel8888/harmonic-shape-transform-2026-koncept.git)
-
 2  Dependencies: Ensure you have numpy and scipy installed within your Blender's Python environment.
 
 3  Workflow: The main logic is contained within the HST_OT_Compute operator, while the UI is handled by HST_PT_Panel.
