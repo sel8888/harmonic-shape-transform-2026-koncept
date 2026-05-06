@@ -52,6 +52,15 @@ GPU results are fully consistent with CPU benchmark:
 This confirms that GPU acceleration does not introduce any numerical
 artifacts or changes in result quality.
 
+> **Note:** To the best of the author's knowledge, this may be the first
+> publicly documented GPU-accelerated benchmark of spectral shape
+> correspondence (HST + ZoomOut) on the FAUST dataset using a pure Python
+> implementation (CuPy + scipy). The official ZoomOut implementation
+> (Melzi et al., 2019) is MATLAB-only with no GPU support. Existing Python
+> ports of ZoomOut are CPU-only. This benchmark represents an independent
+> contribution to the reproducibility and accessibility of spectral shape
+> matching methods.
+
 ### Hardware Note
 
 Tested on NVIDIA RTX 4070 (12GB VRAM, CUDA 12.9, Compute Capability 8.9).
