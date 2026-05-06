@@ -144,7 +144,7 @@ When simulating clothing, folds often create "false contact points" that change 
 
 ### Installation
 
-1. **Download** the [`hst_zoomout_benchmark_addonv1.py`](hst_zoomout_benchmark_addonv1.py) file from this repository.
+1. **Download:** [Get v2.0.0 Addon ZIP here](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest) from this repository.
 2. In Blender, go to **Edit > Preferences > Add-ons**.
 3. Click **Install...** and select the downloaded `hst_zoomout_benchmark_addonv1.py`.
 4. **Install Dependencies:** This addon requires `scipy`. Since Blender uses its own Python, you may need to install it via the Python Console inside Blender or via terminal:
