@@ -19,30 +19,16 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 
 <img width="2683" height="1486" alt="hst_full_benchmark_final99pairs" src="https://github.com/user-attachments/assets/d8a459ce-36f2-44c6-b51e-de26aed56c67" />
 
+<img width="2044" height="896" alt="full test 99pair 2026-05-06 15-44-17-737" src="https://github.com/user-attachments/assets/af52c711-92a1-49eb-8948-69c0bbfd65a2" />
+
 
 [![Latest Release](https://img.shields.io/github/v/release/sel8888/harmonic-shape-transform-2026-koncept?color=blue&label=Latest%20Version)](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
 
-## 🚀 NEW: v2.0.0 Semantic Titan
-The second generation of HST is here with a focus on stability and unmatched speed.
+## 🏆 v3.0.0 — Full FAUST Benchmark
 
-*   **Winner of HST Benchmark:** Residual error **0.00009**.
-*   **29.1% Faster Initial Alignment** compared to previous builds.
-*   **Production Ready:** Added **Geo-Error Fallback** for complex/dirty meshes (REG07).
-*   **Download:** [Get v2.0.0 Addon ZIP here](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
+99 pairs. Zero failures. Random → ZoomOut never wins.
 
-### ⚡ High-Consistency Benchmark (Pairs 00 & 01)
-In stress-tests across multiple runs, HST v2.0 demonstrated 100% consistency:
-
-*   **Average Time:** 0.894s
-*   **Residual:** 0.00005 (Ultra-High Precision)
-*   **Geo Error:** 0.08361 (Constant)
----
-> ### 🏆 Benchmark Breakthrough (Pairs 00 & 01)
-> **HST Note vs. Standard ZoomOut (6.8k verts):**
-> * **HST Note:** 0.79s (Geo Error: 0.0836)
-> * **ZoomOut:** 42.45s (Geo Error: 0.2633)
-> * **Efficiency:** 53.7x faster performance with 3x better accuracy.
----
+**[Download v3.0.0](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)**
 
 ## Benchmark Results — Full FAUST Dataset
 
@@ -203,7 +189,6 @@ To replicate the SOTA results and benchmarks shown above, I used the **MPI FAUST
 ---
 
 ---
-<img width="2185" height="1060" alt="hst zoomout test  2026-05-06 10-09-08-343" src="https://github.com/user-attachments/assets/21fb3be4-bfdf-4df5-9e88-57a75753a91d" />
 
 
 ## 📊 Comparison of Shape Matching Methods on FAUST
