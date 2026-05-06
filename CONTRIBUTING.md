@@ -1,8 +1,73 @@
 # Contributing to HST (Harmonic Shape Transform)
 
 First off, thank you for considering contributing to HST! It's community members like you that make this tool better for everyone. By contributing to this project, you help us advance semantic geometry within the open-source ecosystem.
+# Contributing to HST
 
-## 🚀 How Can You Help?
+This is an independent research project by a single author. Contributions,
+collaborations, and discussions are welcome.
+
+---
+
+## 🤝 Areas Where Collaboration Is Actively Sought
+
+### 1. Benchmark Against Official ZoomOut (MATLAB)
+
+The current benchmark uses a Python reference implementation of ZoomOut,
+which is significantly slower than the optimized MATLAB version. A proper
+comparison requires:
+
+- MATLAB license or access to the official ZoomOut codebase
+- Running both methods on the same FAUST pairs with the same geodesic error metric
+- Ideally: benchmark on the full FAUST test set (200 pairs)
+
+**If you have MATLAB access and experience with shape correspondence benchmarks,
+please get in touch.**
+
+### 2. SHREC Dataset Evaluation
+
+SHREC (Shape Retrieval Contest) is the second standard benchmark in the shape
+correspondence community alongside FAUST. Evaluating HST on SHREC would:
+
+- Broaden the empirical evidence beyond human body shapes
+- Allow direct comparison with published SHREC results
+- Strengthen the case for a conference submission (SGP, SIGGRAPH)
+
+**If you have experience with SHREC datasets or geometry processing benchmarks,
+contributions are welcome.**
+
+### 3. Formal Mathematical Analysis
+
+The current paper provides empirical results but lacks formal proofs of the
+following properties:
+
+- Continuity conditions for the HST mapping
+- Conditions under which the mapping is bijective
+- Theoretical bounds on geodesic error as a function of spectral distance
+- Relationship between HST and the Functional Maps framework (formal reduction)
+
+**If you are a mathematician or theoretical computer scientist working in
+spectral geometry or differential geometry, collaboration is welcome.**
+
+---
+
+## 📬 How to Contribute
+
+- **Open an Issue** — for questions, suggestions, or to express interest in collaboration
+- **Submit a Pull Request** — for code improvements, bug fixes, or new benchmarks
+- **Email** — for research collaboration or commercial inquiries:
+  Pavel.krahulik.cestiny@gmail.com
+
+---
+
+## 🛠️ Code Contributions
+
+For code contributions, please:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-contribution`)
+3. Ensure results are reproducible (fixed seeds, documented parameters)
+4. Submit a pull request with a clear description of what was changed and why
+
 
 ### 1. Reporting Bugs
 If you find a bug, please open an **Issue**. To help us fix it faster, please include:
