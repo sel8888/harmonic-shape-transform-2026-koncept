@@ -39,6 +39,11 @@ In stress-tests across multiple runs, HST v2.0 demonstrated 100% consistency:
 
 ## Benchmark Results — Full FAUST Dataset
 
+## 📄 Preprint
+
+A full arXiv preprint is ready and pending endorsement submission.  
+It includes formal definitions, full FAUST benchmark (99 pairs), and comparison with ZoomOut.
+
 📊 **Raw results:** [hst_faust_full_benchmark.csv](hst_faust_full_benchmark.csv)
 
 Evaluated on all **99 consecutive pairs** of the FAUST training set  
