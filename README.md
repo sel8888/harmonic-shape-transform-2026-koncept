@@ -258,6 +258,7 @@ The public timestamp of this repository, together with the included PDF document
 6. Contact
 
 For commercial licensing, research collaboration, or inquiries regarding permitted use, please contact the author directly.
+The author reserves all rights to pursue patent protection.
 
 Commercial licensing available upon request.
 Contact the author for closed‑source or commercial use.
