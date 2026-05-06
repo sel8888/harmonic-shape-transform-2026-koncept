@@ -128,6 +128,7 @@ When simulating clothing, folds often create "false contact points" that change 
    ./blender -b --python-expr "import subprocess; subprocess.check_call(['pip', 'install', 'scipy'])"
 
    ---
+*"Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for more details."*
 
 ### 📊 Dataset & Benchmarking
 To replicate the SOTA results and benchmarks shown above, I used the **MPI FAUST** dataset. This is the industry standard for testing human shape correspondence.
