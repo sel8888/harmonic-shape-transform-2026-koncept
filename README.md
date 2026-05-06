@@ -39,7 +39,7 @@ In stress-tests across multiple runs, HST v2.0 demonstrated 100% consistency:
 
 ## Benchmark Results — Full FAUST Dataset
 
-📊 **Raw results:** [hst_faust_full_benchmark.csv](results/hst_faust_full_benchmark.csv)
+📊 **Raw results:** [hst_faust_full_benchmark.csv](hst_faust_full_benchmark.csv)
 
 Evaluated on all **99 consecutive pairs** of the FAUST training set  
 (`tr_reg_000` → `tr_reg_099`, 6890 vertices each).  
