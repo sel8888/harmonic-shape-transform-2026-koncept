@@ -54,28 +54,21 @@ Evaluated on all **99 consecutive pairs** of the FAUST training set
 (`tr_reg_000` → `tr_reg_099`, 6890 vertices each).  
 All results **fully deterministic** (fixed ARPACK seed, fixed random seed).
 
-### HST Note — 99 pairs
+## 📊 Full Benchmark — HST Note vs ZoomOut (99 pairs)
 
-| Metric | Value |
-|--------|-------|
-| Mean geo error | 0.130 |
-| **Median geo error** | **0.120** |
-| Std | 0.050 |
-| Min / Max | 0.066 / 0.504 |
-| **Pairs < 0.20** | **96 / 99 (97%)** |
-| Pairs < 0.30 | 98 / 99 (99%) |
-| **Mean time per pair** | **0.802 s** |
-| **Failures** | **0 / 99** |
+| Method | Mean geo error | Time | Wins |
+|--------|---------------|------|------|
+| **HST Note** | **0.129** | **0.805s** | **67/99** |
+| HST Note → ZoomOut | 0.193 | 43.6s | 32/99 |
+| Random → ZoomOut | 0.352 | 42.8s | **0/99** |
 
-### HST Note vs ZoomOut — selected pairs
+- HST Note is **53× faster** than ZoomOut
+- HST initialization improves ZoomOut by **42.3% on average**
+- Random → ZoomOut **never wins** on any pair
+- **Zero failures** across all 99 pairs
+- All results fully deterministic (fixed seeds)
 
-| Method | Geo error | Time |
-|--------|-----------|------|
-| **HST Note (k=1)** | **0.084** | **0.81s** |
-| Random → ZoomOut | 0.280 | 46s |
-| HST Note → ZoomOut | 0.054 | 46s |
-
-HST Note initialization improves ZoomOut by **29–81%** depending on pair difficulty.
+📊 **Raw results:** [hst_faust_full_benchmark.csv](hst_faust_full_benchmark.csv)
 
 > [!TIP]
 > **In production terms:** What previously took a "coffee break" to calculate (42s) is now done before you can blink (0.79s). This represents a **53x speed increase** without sacrificing semantic precision.
