@@ -36,6 +36,10 @@ In stress-tests across multiple runs, HST v2.0 demonstrated 100% consistency:
 > * **ZoomOut:** 42.45s (Geo Error: 0.2633)
 > * **Efficiency:** 53.7x faster performance with 3x better accuracy.
 ---
+
+> [!TIP]
+> **In production terms:** What previously took a "coffee break" to calculate (42s) is now done before you can blink (0.79s). This represents a **53x speed increase** without sacrificing semantic precision.
+> 
 ## 📘 Overview
 
 The Harmonic Shape Transform introduces a new way to map one shape onto another:
