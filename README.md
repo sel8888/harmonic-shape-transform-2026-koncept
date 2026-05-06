@@ -30,7 +30,7 @@ In stress-tests across multiple runs, HST v2.0 demonstrated 100% consistency:
 *   **Residual:** 0.00005 (Ultra-High Precision)
 *   **Geo Error:** 0.08361 (Constant)
 ---
-> ### 🏆 Benchmark Breakthrough
+> ### 🏆 Benchmark Breakthrough (Pairs 00 & 01)
 > **HST Note vs. Standard ZoomOut (6.8k verts):**
 > * **HST Note:** 0.79s (Geo Error: 0.0836)
 > * **ZoomOut:** 42.45s (Geo Error: 0.2633)
