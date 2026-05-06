@@ -1,12 +1,5 @@
 # Contributing to HST (Harmonic Shape Transform)
 
-First off, thank you for considering contributing to HST! It's community members like you that make this tool better for everyone. Whether you are a developer, a technical artist, or a researcher, your input is highly valued.
-
-## 🚀 How Can You Help?
-
-### 1. Reporting Bugs
-# Contributing to HST (Harmonic Shape Transform)
-
 First off, thank you for considering contributing to HST! It's community members like you that make this tool better for everyone. By contributing to this project, you help us advance semantic geometry within the open-source ecosystem.
 
 ## 🚀 How Can You Help?
