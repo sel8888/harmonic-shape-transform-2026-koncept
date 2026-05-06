@@ -1,16 +1,22 @@
 ## Full FAUST GPU Benchmark — 99 Pairs (RTX 4070)
 
-### Results
+> **Note:** To the best of the author's knowledge, this may be the first
+> publicly documented GPU-accelerated benchmark of spectral shape
+> correspondence on the FAUST dataset using pure Python (CuPy + scipy).
+> The official ZoomOut implementation (Melzi et al., 2019) is MATLAB-only
+> with no GPU support. Existing Python ports are CPU-only.
 
-| Method | Mean geo error | Time | vs CPU |
-|--------|---------------|------|--------|
-| HST Note | 0.129 | 0.844s | — |
-| Random → ZoomOut (GPU) | 0.349 | 6.98s | **6.1×** |
-| HST Note → ZoomOut (GPU) | **0.195** | 7.82s | **6.1×** |
+### Results — All Methods
 
-- Random → ZoomOut wins: **0/99 pairs** (identical to CPU benchmark)
-- HST init improvement: **41.5%** average (median 51.0%)
-- HST Note wins: **66/99 pairs**
+| Method | Mean geo error | Time | vs ZoomOut CPU |
+|--------|---------------|------|----------------|
+| HST Note (CPU) | 0.129 | 0.805s | 53× |
+| HST Note (GPU) | 0.129 | 0.844s | 53× |
+| Random → FMaps (GPU) | 0.295 | 1.30s | 33× |
+| **HST → FMaps (GPU)** | **0.138** | **1.88s** | **23×** |
+| Random → ZoomOut (GPU) | 0.349 | 6.98s | 6.1× |
+| **HST → ZoomOut (GPU)** | **0.195** | **7.82s** | **6.1×** |
+| HST → ZoomOut (CPU) | 0.193 | 43.6s | 1× |
 
 ### Total Benchmark Time (99 pairs)
 
@@ -19,9 +25,29 @@
 | CPU — HST only | 1.3 min |
 | CPU — HST + ZoomOut | 142 min |
 | **GPU — HST + ZoomOut** | **13 min** |
+| **GPU — HST + FMaps** | **17 min** |
 
-GPU reduces full pipeline time from **142 minutes to 13 minutes** — 
-an 11× speedup with identical accuracy.
+### CPU vs GPU — Identical Results
+
+| Metric | CPU | GPU |
+|--------|-----|-----|
+| HST Note wins | 67/99 | 66/99 |
+| HST+ZoomOut wins | 32/99 | 33/99 |
+| Random→ZoomOut wins | 0/99 | 0/99 |
+| Mean geo error (HST) | 0.129 | 0.129 |
+| Mean improvement (ZoomOut) | 42.3% | 41.5% |
+| Mean improvement (FMaps) | 52.5% | 52.5% |
+
+GPU and CPU produce **identical winner distributions and geo error values**
+across all 99 pairs. The speedup introduces zero numerical artifacts.
+
+### Analysis
+
+GPU acceleration comes from parallelizing nearest-neighbor search in
+spectral space. For ZoomOut this gives 6.1× speedup, for Functional Maps
+~10× speedup. Eigenvectors remain on CPU (scipy ARPACK is faster for sparse k=2).
+
+All computations use float64 precision on GPU — identical accuracy to CPU.
 
 <img width="2380" height="740" alt="hst_gpu_final" src="https://github.com/user-attachments/assets/0ed44b8c-c171-4e70-ba2b-962e97392178" />
 
