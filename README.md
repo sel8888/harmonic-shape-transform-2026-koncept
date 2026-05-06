@@ -17,6 +17,9 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 **Author:** Pavel Krahulik 
 **Year:** 2026
 
+<img width="2683" height="1486" alt="hst_full_benchmark_final99pairs" src="https://github.com/user-attachments/assets/d8a459ce-36f2-44c6-b51e-de26aed56c67" />
+
+
 [![Latest Release](https://img.shields.io/github/v/release/sel8888/harmonic-shape-transform-2026-koncept?color=blue&label=Latest%20Version)](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
 
 ## 🚀 NEW: v2.0.0 Semantic Titan
