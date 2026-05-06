@@ -4,7 +4,7 @@
 > — Isaac Newton
 >
 > 
-!Hypothesis after testing: HST harmonic note improves ANY spectral method as initialization!
+💡 "Hypotesis after testing HST Harmonic Note improves ANY spectral method as initialization."
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
