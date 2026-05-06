@@ -205,9 +205,12 @@ Below is an overview of officially published results from classical and deep-lea
 | Smooth Shell Maps | 2020 | Classical | 0.10–0.12 | 5–10 min | High accuracy, heavy computation |
 | FMNet + ZoomOut | 2017 | Deep Learning | 0.12–0.15 | 0.01s + 30–60s | Requires training on FAUST |
 | HSN (Spectral Networks) | 2021 | Deep Learning | 0.08–0.10 | 0.02 s | State-of-the-art DL, training required |
-| **Random → ZoomOut (baseline)** | 2019 | Classical | 0.352 | 42.8s | Python impl., no initialization |
-| **HST Note → ZoomOut** | **2026** | **Classical** | **0.193** | **43.6s** | HST as initialization, 42.3% improvement |
-| **HST Note (HST2026) k2** | **2026** | **Classical** | **0.129** | **0.805s** | No training, 53× faster, 99 pairs |
+| Random → ZoomOut (CPU) | 2019 | Classical | 0.352 | 42.8s | Python impl., no initialization |
+| Random → ZoomOut (GPU) | 2019+2026 | Classical | 0.349 | 6.98s | GPU acceleration, RTX 4070 |
+| HST Note → ZoomOut (CPU) | 2026 | Classical | 0.193 | 43.6s | HST init, 42.3% improvement |
+| **HST Note → ZoomOut (GPU)** | **2026** | **Classical** | **0.195** | **7.82s** | **HST init + GPU, 6.1× faster** |
+| **HST Note (CPU)** | **2026** | **Classical** | **0.129** | **0.805s** | **No training, 53× faster than ZoomOut** |
+| **HST Note (GPU)** | **2026** | **Classical** | **0.129** | **0.844s** | **GPU — identical accuracy to CPU** |
 
 ### 🏆 Summary
 - **Fastest classical method** by a huge margin  
