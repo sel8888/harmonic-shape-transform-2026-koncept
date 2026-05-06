@@ -13,6 +13,18 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 **Author:** Pavel Krahulik 
 **Year:** 2026
 
+[![Latest Release](https://img.shields.io/github/v/release/sel8888/harmonic-shape-transform-2026-koncept?color=blue&label=Latest%20Version)](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
+
+## 🚀 NEW: v2.0.0 Semantic Titan
+The second generation of HST is here with a focus on stability and unmatched speed.
+
+*   **Winner of HST Benchmark:** Residual error **0.00009**.
+*   **29.1% Faster Initial Alignment** compared to previous builds.
+*   **Production Ready:** Added **Geo-Error Fallback** for complex/dirty meshes (REG07).
+*   **Download:** [Get v2.0.0 Addon ZIP here](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
+
+---
+
 ---
 
 ## 📘 Overview
