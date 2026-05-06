@@ -3,6 +3,8 @@
 > *"If I have seen further, it is by standing on the shoulders of giants."*  
 > — Isaac Newton
 >
+> 
+!Hypothesis after testing: HST harmonic note improves ANY spectral method as initialization!
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
