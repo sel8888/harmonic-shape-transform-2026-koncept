@@ -71,7 +71,7 @@ One harmonic note is enough.
 
 [![Latest Release](https://img.shields.io/github/v/release/sel8888/harmonic-shape-transform-2026-koncept?color=blue&label=Latest%20Version)](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
 
-## 🏆 v4.0.0 — Full FAUST Benchmark + GPU 
+## 🏆 v5.0.0 — Full FAUST Benchmark + GPU 
 
 99 pairs. Zero failures. Random → ZoomOut never wins.
 
