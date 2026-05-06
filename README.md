@@ -23,7 +23,6 @@ The second generation of HST is here with a focus on stability and unmatched spe
 *   **Production Ready:** Added **Geo-Error Fallback** for complex/dirty meshes (REG07).
 *   **Download:** [Get v2.0.0 Addon ZIP here](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
 
----
 ### ⚡ High-Consistency Benchmark (Pairs 00 & 01)
 In stress-tests across multiple runs, HST v2.0 demonstrated 100% consistency:
 
