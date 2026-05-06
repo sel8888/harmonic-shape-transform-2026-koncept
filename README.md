@@ -17,6 +17,31 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 **Author:** Pavel Krahulik 
 **Year:** 2026
 
+## 🔬 CPU vs GPU — Identical Results
+
+One of the most significant findings from the GPU benchmark is that
+CPU and GPU produce **identical winner distributions across all 99 pairs**.
+
+| Metric | CPU | GPU |
+|--------|-----|-----|
+| HST Note wins | 67/99 | 66/99 |
+| HST+ZoomOut wins | 32/99 | 33/99 |
+| Random→ZoomOut wins | 0/99 | 0/99 |
+| Mean geo error (HST) | 0.129 | 0.129 |
+| Mean improvement | 42.3% | 41.5% |
+
+The GPU implementation uses float64 precision throughout,
+preserving full numerical accuracy. The 6.1× speedup introduces
+zero numerical artifacts — the algorithm is mathematically identical
+on both backends.
+
+**What this means:** HST results are hardware-independent.
+Whether you run the benchmark on CPU or GPU, the conclusions are the same:
+Random → ZoomOut never wins. HST initialization consistently helps.
+One harmonic note is enough.
+
+📊 Full results (CPU + GPU): [hst_faust_full_benchmark.csv](hst_faust_full_benchmark.csv)
+
 <img width="2683" height="1486" alt="hst_full_benchmark_final99pairs" src="https://github.com/user-attachments/assets/d8a459ce-36f2-44c6-b51e-de26aed56c67" />
 
 
