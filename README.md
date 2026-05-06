@@ -252,8 +252,6 @@ For artists and developers using the **Blender Addon**, this means:
 
 If you are interested in collaboration or discussion, feel free to reach out.
 
-GPL‑3.0
-
 ## License
 
 - **Non-commercial use:** CC BY-NC 4.0 — free for research, education, open source
