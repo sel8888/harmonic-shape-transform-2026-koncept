@@ -3,8 +3,6 @@
 > *"If I have seen further, it is by standing on the shoulders of giants."*  
 > — Isaac Newton
 >
-> HST builds on decades of work in spectral geometry, Laplace-Beltrami operators,
-> and functional maps.
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
