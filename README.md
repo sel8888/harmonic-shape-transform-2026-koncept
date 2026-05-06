@@ -2,6 +2,13 @@
 
 **Seeking arXiv endorser for cs.GR** — contact Pavel.krahulik.cestiny@gmail.com
 
+## 📄 Preprint
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059602.svg)](https://doi.org/10.5281/zenodo.20059602)
+
+Full preprint available on Zenodo:  
+**https://doi.org/10.5281/zenodo.20059602**
+
 > *"If I have seen further, it is by standing on the shoulders of giants."*  
 > — Isaac Newton
 >
