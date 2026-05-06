@@ -51,7 +51,9 @@ CPU and GPU produce **identical winner distributions across all 99 pairs**.
 | HST+ZoomOut wins | 32/99 | 33/99 |
 | Random→ZoomOut wins | 0/99 | 0/99 |
 | Mean geo error (HST) | 0.129 | 0.129 |
-| Mean improvement | 42.3% | 41.5% |
+| Mean improvement (ZoomOut) | 42.3% | 41.5% |
+| Mean improvement (FMaps) | 52.5% | TBD |
+
 
 The GPU implementation uses float64 precision throughout,
 preserving full numerical accuracy. The 6.1× speedup introduces
