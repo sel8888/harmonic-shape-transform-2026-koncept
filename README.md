@@ -166,20 +166,6 @@ To replicate the SOTA results and benchmarks shown above, I used the **MPI FAUST
 
 ---
 
-## ⚖️ Benchmarks: HST vs. ZoomOut (State-of-the-Art)
-
-To evaluate the practical efficiency of the HST framework, we conducted a head-to-head comparison with **ZoomOut** (Melzi et al.), the current industry standard for spectral correspondence refinement.
-
-### 📊 Performance Comparison
-Tested on the FAUST dataset (non-isometric human poses).
-
-| Metric | HST Note (k=1) | ZoomOut (Python Impl.) | Δ Improvement |
-| :--- | :---: | :---: | :---: |
-| **Geodesic Error (L2)** | **0.120** | 0.245 | **2.04x More Accurate** |
-| **Computation Time** | **0.043s** | 65.0s | **~1500x Faster** |
-
-> **Implementation Note:** While optimized C++/MATLAB versions of ZoomOut are significantly faster than our Python test-bed, the O(1) complexity of the HST Note lookup remains fundamentally more efficient for real-time applications.
-
 ---
 <img width="2185" height="1060" alt="hst zoomout test  2026-05-06 10-09-08-343" src="https://github.com/user-attachments/assets/21fb3be4-bfdf-4df5-9e88-57a75753a91d" />
 
