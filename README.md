@@ -26,6 +26,7 @@ The second generation of HST is here with a focus on stability and unmatched spe
 ---
 ### ⚡ High-Consistency Benchmark (Pairs 00 & 01)
 In stress-tests across multiple runs, HST v2.0 demonstrated 100% consistency:
+
 *   **Average Time:** 0.894s
 *   **Residual:** 0.00005 (Ultra-High Precision)
 *   **Geo Error:** 0.08361 (Constant)
