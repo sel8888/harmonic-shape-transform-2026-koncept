@@ -255,7 +255,12 @@ If you are interested in collaboration or discussion, feel free to reach out.
 GPL‑3.0
 
 ## License
-This project is released under the GNU General Public License v3.0 (GPL‑3.0).  
+
+- **Non-commercial use:** CC BY-NC 4.0 — free for research, education, open source
+- **Commercial use:** contact Pavel.krahulik.cestiny@gmail.com for a commercial license
+- **Exception:** Blender Foundation and open source projects may use under GPL-3.0
+This project is released under the GNU General Public License v3.0 (GPL‑3.0).
+  
 Commercial use, proprietary redistribution, or closed-source modifications are not permitted.  
 Any reuse or modification must remain open-source under GPL‑3.0 and must credit the original author.
 
