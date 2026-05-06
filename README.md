@@ -1,5 +1,11 @@
 # Harmonic Shape Transform (HST)
 
+> *"If I have seen further, it is by standing on the shoulders of giants."*  
+> — Isaac Newton
+>
+> HST builds on decades of work in spectral geometry, Laplace-Beltrami operators,
+> and functional maps.
+
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
 "In Kabbalah, creation is perceived as a symphony of harmonic notes that shape reality. My HST algorithm does exactly that within the digital realm: it identifies these fundamental 'harmonic notes' (eigenfunctions) of 3D objects. This allows it to recognize a shape's identity regardless of its deformation—it listens to its inner music, rather than its outer shell."
