@@ -19,9 +19,11 @@ This resolves the left/right symmetry ambiguity of single-eigenfunction mapping.
 
 ### Key Findings
 
-- Dual Note is **better as standalone** — wins on 61/99 pairs (+7.1%)
-- Dual Note is **worse as initializer** — Single Note preferred for ZoomOut and FMaps
+- Dual Note achieves **lower geo error as standalone** — 0.120 vs 0.129 (+7.1%)
+- As initializer for ZoomOut and FMaps, **Single Note gives better results**
+- The two roles are complementary, not contradictory:
+  - Need fast standalone mapping → **use Dual Note**
+  - Need to initialize ZoomOut/FMaps → **use Single Note**
 - Instability on difficult pairs: second eigenfunction not always aligned with lateral axis
-- Single Note remains the recommended universal initializer
 
 <img width="1000" height="600" alt="Graph_HTS_dual_note_GE" src="https://github.com/user-attachments/assets/a59822ba-afe6-4708-8b13-e33a76a903cf" />
