@@ -365,7 +365,19 @@ When simulating clothing, folds often create "false contact points" that change 
    ```bash
    # Example for Windows (run as Administrator)
    ./blender -b --python-expr "import subprocess; subprocess.check_call(['pip', 'install', 'scipy'])"
+### GPU Acceleration (optional)
 
+Requires NVIDIA CUDA toolkit and CuPy:
+
+```bash
+pip install cupy-cuda12x
+```
+
+Also install **NVIDIA cuDNN SDK** and **CUDA Toolkit 12.x**:
+- [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
+- [cuDNN SDK](https://developer.nvidia.com/cudnn)
+
+Without GPU, all benchmarks run on CPU automatically (no code changes needed).
    ---
 *"Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for more details."*
 
