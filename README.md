@@ -19,6 +19,35 @@ Full preprint available on Zenodo:
 
 ## The Discovery
 
+## 🧊 HST Volumetric — Three Harmonic Notes
+
+A novel extension of HST that computes three independent harmonic fingerprints 
+for each shape — surface, interior, and exterior — providing a richer geometric 
+description than surface-only methods.
+
+To the best of the author's knowledge, the combination of all three fields 
+as a unified shape descriptor has not been previously published.
+Classical shape correspondence methods (ZoomOut, Functional Maps, BCICP) 
+operate exclusively on surface meshes. Volumetric Laplacian methods exist 
+in isolation but are not combined with exterior SDF fields as a unified 
+harmonic framework.
+
+| Note | Field | Method | Time |
+|------|-------|--------|------|
+| **Surface** | 2D manifold | Laplace-Beltrami eigenfunctions | 0.044s |
+| **Interior** | 3D volume | Tetrahedral Laplacian eigenfunctions | 0.265s |
+| **Exterior** | Surrounding space | Signed Distance Field (GPU) | 0.073s |
+
+**Total: 1.70s** on FAUST mesh (6890 vertices, resolution=16)
+
+### Potential applications
+- Volumetric shape correspondence (CT scans, MRI, solid objects)
+- Topology-aware shape matching (genus changes, fractures, healing)
+- Richer shape descriptors for 3D generative AI
+
+### Addon
+`hst_volumetric_gpu_v2.py` — Blender addon, View3D → Sidebar → HST_VolGPU
+
 HST harmonic note is not just a shape mapping method.
 It is a **universal geometric predictor** — a initialization that
 systematically improves any spectral shape correspondence algorithm.
