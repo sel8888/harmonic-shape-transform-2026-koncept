@@ -207,7 +207,7 @@ One harmonic note is enough.
 
 📊 Full results (CPU + GPU): [hst_faust_full_benchmark.csv](hst_faust_full_benchmark.csv)
 
-<img width="1341" height="743" alt="hst_full_benchmark_final99pairs" src="https://github.com/user-attachments/assets/d8a459ce-36f2-44c6-b51e-de26aed56c67" />
+<img width="800" height="443" alt="hst_full_benchmark_final99pairs" src="https://github.com/user-attachments/assets/d8a459ce-36f2-44c6-b51e-de26aed56c67" />
 
 [![Latest Release](https://img.shields.io/github/v/release/sel8888/harmonic-shape-transform-2026-koncept?color=blue&label=Latest%20Version)](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/latest)
 
