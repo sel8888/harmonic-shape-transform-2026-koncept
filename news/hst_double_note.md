@@ -1,5 +1,7 @@
 ## 🔬 HST Dual Note — Double Eigenfunction Benchmark
 
+hst_dual_benchmark.csv
+
 HST Dual Note maps shapes in 2D spectral space (φ₁, φ₂) instead of 1D.
 This resolves the left/right symmetry ambiguity of single-eigenfunction mapping.
 
