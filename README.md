@@ -13,10 +13,6 @@
 Full preprint available on Zenodo:  
 **https://doi.org/10.5281/zenodo.20059602**
 
-> *"If I have seen further, it is by standing on the shoulders of giants."*  
-> — Isaac Newton
->
-> 
 💡 "Hypotesis after testing HST Harmonic Note improves ANY spectral method as initialization."
 
 ### 📊 Reproducibility & Benchmarking
