@@ -1,6 +1,8 @@
 # Harmonic Shape Transform (HST)
 
-<img width="690" height="690" alt="hst_avatar" src="https://github.com/user-attachments/assets/3659d12d-ff8e-4f49-847b-914806cde593" />
+<p align="center">
+  <img width="200" height="200" alt="hst_avatar" src="https://github.com/user-attachments/assets/3659d12d-ff8e-4f49-847b-914806cde593" />
+</p>
 
 **Seeking arXiv endorser for cs.GR** — contact Pavel.krahulik.cestiny@gmail.com 
 
