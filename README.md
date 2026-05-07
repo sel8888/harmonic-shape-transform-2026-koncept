@@ -31,6 +31,9 @@ Built by one independent researcher, without funding or institutional affiliatio
 
 🌍 World‑First Volumetric Spectral Correspondence Pipeline (Unique Global Contribution)
 
+<img width="2684" height="1622" alt="hst_final_complete" src="https://github.com/user-attachments/assets/b87a9aaa-40a9-4425-a84e-0ec1140cdbe2" />
+
+
 | FMaps HST (GPU) | 0.138 | 1.02s | 42× faster than ZoomOut CPU |
 | ZoomOut HST (GPU) | 0.194 | 6.62s | 6.5× faster than CPU |
 
