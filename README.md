@@ -11,6 +11,16 @@
 Full preprint available on Zenodo:  
 **https://doi.org/10.5281/zenodo.20059602**
 
+## History
+
+- **May 2, 2026** — idea born, first concept
+- **May 3, 2026** — first working implementation in Python
+- **May 4, 2026** — Blender addon, first FAUST benchmark
+- **May 5, 2026** — full 99-pair benchmark, ZoomOut comparison
+- **May 6, 2026** — GPU acceleration, Functional Maps, universal initializer confirmed
+- **May 7, 2026** — Zenodo preprint published · DOI: [10.5281/zenodo.20059602](https://doi.org/10.5281/zenodo.20059602)
+
+Built by one independent researcher, without funding or institutional affiliation.
 > *"If I have seen further, it is by standing on the shoulders of giants."*  
 > — Isaac Newton
 >
