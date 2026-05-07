@@ -402,7 +402,10 @@ Below is an overview of officially published results from classical and deep-lea
 | HST Note → ZoomOut (CPU) | 2026 | Classical | 0.193 | 43.6s | HST init, 42.3% improvement |
 | HST Note → ZoomOut (GPU) | 2026 | Classical | 0.195 | 7.82s | HST init + GPU, 6.1× faster |
 | HST Note → FMaps (CPU) | 2026 | Classical | 0.138 | ~2s | HST init, 52.5% improvement |
-| **HST Note → FMaps (GPU)** | **2026** | **Classical** | **0.138** | **1.88s** | **HST init + GPU, 23× faster than ZoomOut** |
+| HST Note → FMaps (GPU) | 2026 | Classical | 0.138 | 1.88s | HST init + GPU, 23× faster than ZoomOut |
+| HST Dual Note (CPU) | 2026 | Classical | 0.120 | ~1s | Two eigenfunctions, 61/99 wins vs Single |
+| HST Dual Note → ZoomOut | 2026 | Classical | 0.204 | ~44s | Dual init, slightly worse than Single init |
+| HST Dual Note → FMaps | 2026 | Classical | 0.223 | ~2s | Dual init, Single Note preferred for init |
 | **HST Note (CPU)** | **2026** | **Classical** | **0.129** | **0.805s** | **No training, 53× faster than ZoomOut** |
 | **HST Note (GPU)** | **2026** | **Classical** | **0.129** | **0.844s** | **GPU — identical accuracy to CPU** |
 
