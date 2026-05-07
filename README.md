@@ -46,7 +46,7 @@ harmonic framework.
 - Richer shape descriptors for 3D generative AI
 
 ### Addon
-`hst_volumetric_gpu_v2.py` — Blender addon, View3D → Sidebar → HST_VolGPU
+[`hst_volumetric_gpu_v2.py`](hst_volumetric_gpu_v2.py) — Blender addon, View3D → Sidebar → HST_VolGPU
 
 HST harmonic note is not just a shape mapping method.
 It is a **universal geometric predictor** — a initialization that
