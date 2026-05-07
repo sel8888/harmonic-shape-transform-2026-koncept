@@ -31,6 +31,9 @@ Built by one independent researcher, without funding or institutional affiliatio
 
 🌍 World‑First Volumetric Spectral Correspondence Pipeline (Unique Global Contribution)
 
+| FMaps HST (GPU) | 0.138 | 1.02s | 42× faster than ZoomOut CPU |
+| ZoomOut HST (GPU) | 0.194 | 6.62s | 6.5× faster than CPU |
+
 This repository contains a world‑first implementation of a fully GPU‑accelerated spectral correspondence pipeline based on a volumetric Laplace–Beltrami operator and the novel Harmonic Shape Transform (HST).
 To the best of our knowledge, no prior academic work, open‑source project, or commercial system has ever combined the following elements:
 ⭐ 1) Volumetric Laplace–Beltrami eigenfunctions for shape correspondence
