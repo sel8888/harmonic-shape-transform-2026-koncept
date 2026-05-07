@@ -5,10 +5,10 @@ This resolves the left/right symmetry ambiguity of single-eigenfunction mapping.
 
 ### Results — 99 FAUST pairs, GPU backend
 
-| Method | Geo error | Improvement | Wins |
-|--------|-----------|-------------|------|
-| HST Single Note | 0.129 | baseline | 38/99 |
-| **HST Dual Note** | **0.120** | **+7.1%** | **61/99** |
+| Method | Geo error | vs Single Note | vs Random ZoomOut |
+|--------|-----------|----------------|-------------------|
+| HST Single Note | 0.129 | baseline | wins 67/99 |
+| **HST Dual Note** | **0.120** | **+7.1% better** | wins 61/99 |
 
 ### As Initializer — Single vs Dual
 
