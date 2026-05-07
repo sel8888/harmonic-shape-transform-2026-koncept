@@ -222,7 +222,8 @@ One harmonic note is enough.
 ## Benchmark Results — Full FAUST Dataset
 
 
-<img width="414" height="1202" alt="dual 2026-05-07 21-40-16-277" src="https://github.com/user-attachments/assets/6ac4f06d-6aff-4a83-8f0d-d0334dd3ad53" />
+<img width="287" height="830" alt="Dual note 2026-05-07 21-59-59-580" src="https://github.com/user-attachments/assets/0bd37e05-7319-49a3-a4d5-f4edc19845e6" />
+
 
 
 ## 📄 Preprint
