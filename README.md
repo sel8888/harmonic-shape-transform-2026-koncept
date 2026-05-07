@@ -29,6 +29,19 @@ Built by one independent researcher, without funding or institutional affiliatio
 > 
 💡 "Hypotesis after testing HST Harmonic Note improves ANY spectral method as initialization."
 
+### 📊 Reproducibility & Benchmarking
+
+To maintain full transparency, the complete benchmarking suite used to generate the FAUST results is available in this repository. You can run the tests on your own hardware to verify the 33x GPU speedup and accuracy metrics.
+
+* **Benchmark Script:** [`hst_volumetric_faust_benchmark_v1.py`](./hst_volumetric_faust_benchmark_v1.py)
+* **Dataset:** MPI FAUST (Training set, 100 scans)
+* **Environment:** Blender 5.1+ with CUDA-enabled GPU
+
+#### Run the benchmark:
+To reproduce the results, ensure you have the FAUST `.ply` files in your path and run:
+```bash
+blender --background --python hst_volumetric_faust_benchmark_v1.py
+
 ## The Discovery
 
 🌍 World‑First Volumetric Spectral Correspondence Pipeline (Unique Global Contribution)
