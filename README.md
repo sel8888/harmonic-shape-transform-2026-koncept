@@ -37,11 +37,6 @@ To maintain full transparency, the complete benchmarking suite used to generate 
 * **Dataset:** MPI FAUST (Training set, 100 scans)
 * **Environment:** Blender 5.1+ with CUDA-enabled GPU
 
-#### Run the benchmark:
-To reproduce the results, ensure you have the FAUST `.ply` files in your path and run:
-
-```bash
-blender --background --python hst_volumetric_faust_benchmark_v1.py
 
 ## The Discovery
 
