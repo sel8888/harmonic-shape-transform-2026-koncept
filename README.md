@@ -8,7 +8,7 @@
 
 **Author:** Pavel Krahulík · [ORCID 0009-0003-9680-3333](https://orcid.org/0009-0003-9680-3333)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059601.svg)](https://doi.org/10.5281/zenodo.20059601)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059602.svg)](https://doi.org/10.5281/zenodo.20059602)
 
 Full preprint available on Zenodo:  
 **https://doi.org/10.5281/zenodo.20059602**
