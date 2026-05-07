@@ -39,6 +39,7 @@ To maintain full transparency, the complete benchmarking suite used to generate 
 
 #### Run the benchmark:
 To reproduce the results, ensure you have the FAUST `.ply` files in your path and run:
+
 ```bash
 blender --background --python hst_volumetric_faust_benchmark_v1.py
 
