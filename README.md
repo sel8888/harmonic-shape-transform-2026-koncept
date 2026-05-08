@@ -16,22 +16,6 @@
 
 # Harmonic Shape Transform (HST)
 
-<p align="center">
-  <img width="200" height="200" alt="hst_avatar" src="https://github.com/user-attachments/assets/3659d12d-ff8e-4f49-847b-914806cde593" />
-</p>
-
-**Seeking arXiv endorser for cs.GR** — contact Pavel.krahulik.cestiny@gmail.com 
-
-[Endorse on arXiv](https://arxiv.org/auth/endorse?x=HHE7CD) THANKS!
-
-## 📄 Preprint
-
-**Author:** Pavel Krahulík · [ORCID 0009-0003-9680-3333](https://orcid.org/0009-0003-9680-3333)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20059602.svg)](https://doi.org/10.5281/zenodo.20059602)
-
-Full preprint available on Zenodo:  
-**https://doi.org/10.5281/zenodo.20059602**
 
 💡 "Hypotesis after testing HST Harmonic Note improves ANY spectral method as initialization."
 
