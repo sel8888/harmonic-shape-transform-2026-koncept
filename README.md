@@ -19,23 +19,9 @@ Full preprint available on Zenodo:
 
 💡 "Hypotesis after testing HST Harmonic Note improves ANY spectral method as initialization."
 
-### 📊 Reproducibility & Benchmarking
-
-To maintain full transparency, the complete benchmarking suite used to generate the FAUST results is available in this repository. You can run the tests on your own hardware to verify the 33x GPU speedup and accuracy metrics.
-
-* **Benchmark Script:** [`hst_volumetric_faust_benchmark_v1.py`](./hst_volumetric_faust_benchmark_v1.py)
-* **Dataset:** MPI FAUST (Training set, 100 scans)
-* **Environment:** Blender 5.1+ with CUDA-enabled GPU
-
-
 ## The Discovery
 
 🌍 World‑First Volumetric Spectral Correspondence Pipeline (Unique Global Contribution)
-
-📊 **Volumetric GPU results:** [hst_volumetric_GPU_benchmark.csv](hst_volumetric_GPU_benchmark.csv)
-
-<img width="2684" height="1622" alt="hst_final_complete" src="https://github.com/user-attachments/assets/b87a9aaa-40a9-4425-a84e-0ec1140cdbe2" />
-
 
 | FMaps HST (GPU) | 0.138 | 1.02s | 42× faster than ZoomOut CPU |
 | ZoomOut HST (GPU) | 0.194 | 6.62s | 6.5× faster than CPU |
@@ -118,6 +104,19 @@ This technology enables:
     volumetric processing for complex shapes
 
 It provides capabilities that no existing academic or commercial system currently offers.
+
+### 📊 Reproducibility & Benchmarking
+
+To maintain full transparency, the complete benchmarking suite used to generate the FAUST results is available in this repository. You can run the tests on your own hardware to verify the 33x GPU speedup and accuracy metrics.
+
+* **Benchmark Script:** [`hst_volumetric_faust_benchmark_v1.py`](./hst_volumetric_faust_benchmark_v1.py)
+* **Dataset:** MPI FAUST (Training set, 100 scans)
+* **Environment:** Blender 5.1+ with CUDA-enabled GPU
+
+📊 **Volumetric GPU results:** [hst_volumetric_GPU_benchmark.csv](hst_volumetric_GPU_benchmark.csv)
+
+<img width="2684" height="1622" alt="hst_final_complete" src="https://github.com/user-attachments/assets/b87a9aaa-40a9-4425-a84e-0ec1140cdbe2" />
+
 
 ## 🧊 HST Volumetric — Three Harmonic Notes
 
