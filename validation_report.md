@@ -215,7 +215,7 @@ tiebreak_tol = 0.001
 
 ```bash
 # Run full benchmark
-# Blender addon: hst_faust_full_benchmark.py
+# Blender addon
 # Set FAUST directory, click RUN
 ```
 
