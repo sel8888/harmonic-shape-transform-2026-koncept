@@ -81,7 +81,7 @@ The project introduces a seamless, high-performance workflow where every stage i
 <tr>
 <td width="50%" valign="top">
 
-## 🚀 Key Innovations & Performance Milestones
+## Key Innovations & Performance Milestones
 
 ### ⭐ High-Performance Volumetric HST Framework
 While traditional spectral methods (FM, ZoomOut, BCICP) rely exclusively on surface-only operators, HST introduces **volumetric spectral stabilization**. By leveraging the interior geometry of the object, the HST Dual framework effectively resolves symmetry-breaking and local minima issues that frequently cause surface-based methods to fail.
