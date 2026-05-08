@@ -58,11 +58,6 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 ### 🧪 World First Assertion
 > *To the best of the author's knowledge, this is the first publicly documented GPU-accelerated spectral shape correspondence pipeline that integrates a **volumetric Laplace–Beltrami operator** with the **Harmonic Shape Transform (HST)** framework for global initialization and refinement.*
 
-**Key Innovations:**
-* **Volumetric Stability:** Resolves symmetry-breaking where surface methods fail.
-* **Extreme Acceleration:** **11× speedup** (142 min → 13 min).
-* **Blender Integration:** Professional-grade engine for the 3D community.
-
 </td>
 <td width="50%" valign="top">
 
