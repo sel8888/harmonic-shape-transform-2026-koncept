@@ -35,8 +35,10 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
-> *"[ZoomOut] can be used in conjunction with existing initialization techniques."*
+> <span style="color:green">●</span> *"[ZoomOut] can be used in conjunction with existing initialization techniques."*
 > — Melzi et al., 2019
+
+**HST is that initialization technique.** +42.3% improvement over random. 0/99 random wins.
 
 **HST is that initialization technique.** +42.3% improvement over random. 0/99 random wins.
 
