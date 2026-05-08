@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" height="200" alt="hst_avatar" src="https://github.com/user-attachments/assets/3659d12d-ff8e-4f49-847b-914806cde593" />
+  <img src="https://raw.githubusercontent.com/sel8888/harmonic-shape-transform-2026-koncept/main/hst_avatar_animated.svg" width="300" alt="HST Animated"/>
 </p>
 
 <p align="center">
