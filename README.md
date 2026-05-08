@@ -10,10 +10,13 @@
     <img src="https://img.shields.io/badge/arXiv-pending%20endorsement-b31b1b.svg" alt="arXiv"/>
   </a>
   <a href="https://github.com/sel8888/harmonic-shape-transform-2026-koncept/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License"/>
+    <img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="GPL-3.0"/>
   </a>
+  <a href="https://creativecommons.org/licenses/by-nc/4.0/">
+    <img src="https://img.shields.io/badge/paper-CC%20BY--NC%204.0-lightgrey.svg" alt="CC BY-NC 4.0"/>
+  </a>
+  <img src="https://img.shields.io/badge/python-3.10%2B-3776AB.svg?logo=python&logoColor=white" alt="Python"/>
 </p>
-
 # Harmonic Shape Transform (HST)
 
 
