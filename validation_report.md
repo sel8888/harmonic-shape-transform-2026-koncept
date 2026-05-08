@@ -239,6 +239,16 @@ HST harmonic note is a **universal geometric predictor**:
 - Systematically improves any spectral method
 - Hardware-independent: CPU = GPU results
 - No training · No landmarks · No shared topology
+- ## 🔬 Robustness
+
+HST is stable under geometric noise up to σ=0.20 and non-isometric
+deformations up to 50% axis change. It works across genus 0–2 connected
+manifolds without modification.
+
+Known limitations: disconnected meshes (λ₁=0 causes instability)
+and large missing surface regions. For noisy or incomplete data,
+HKS or WKS scalar fields are recommended as drop-in replacements
+for the harmonic note.
 
 </td>
 <td width="50%" valign="top">
