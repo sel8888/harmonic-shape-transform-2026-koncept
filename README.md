@@ -213,60 +213,35 @@ View3D → Sidebar → HST_VolGPU
 </tr>
 </table>
 
-## 📚 Citation
+⚖️ License & Legal Notice
+1. Licensing Model
 
-If you are interested in collaboration or discussion, feel free to reach out.
+This project uses a dual-licensing approach to protect the author's intellectual property:
 
-## License
+    Code & Software: Released under the GNU General Public License v3.0 (GPL-3.0). Any redistribution or derivative work must remain open-source.
 
-- **Non-commercial use:** CC BY-NC 4.0 — free for research, education, open source
-- **Commercial use:** contact Pavel.krahulik.cestiny@gmail.com for a commercial license
-- **Exception:** Blender Foundation and open source projects may use under GPL-3.0
-This project is released under the GNU General Public License v3.0 (GPL‑3.0).
-  
-Commercial use, proprietary redistribution, or closed-source modifications are not permitted.  
-Any reuse or modification must remain open-source under GPL‑3.0 and must credit the original author.
+    Concept & Documentation: Licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). Use for commercial gain is strictly prohibited without a separate agreement.
 
-Legal Notes
+2. Commercial & Proprietary Use
 
-This repository contains the original formulation of the Harmonic Shape Transform (HST), including its general definition as a scalar‑field–based shape transformation framework. All materials in this repository — including the conceptual description, mathematical definitions, terminology, and the general HST framework — are protected by copyright of the author.
+The licenses provided (GPL-3.0 and CC BY-NC 4.0) do not permit integration into closed-source software, proprietary AI models, or commercial products.
 
-The following legal conditions apply:
-1. Copyright
+    Commercial License: Required for any use outside of the open-source/non-commercial scope.
 
-All textual, mathematical, conceptual, and structural elements of the HST framework are the intellectual property of the author.
-This includes, but is not limited to:
+    Inquiries: For commercial licensing or proprietary integration, contact the author directly.
 
-    the definition of HST as a transform induced by normalized scalar fields,
+3. Intellectual Property (IP)
 
-    the concept of harmonic notes,
+The Harmonic Shape Transform (HST) framework, its mathematical formulation, the concept of "harmonic notes," and volumetric stabilization are the intellectual property of the author.
 
-    the generalization to arbitrary smooth scalar functions,
+    Priority: Authorship is verified by the public timestamp of this repository and the associated DOI.
 
-    terminology, diagrams, and conceptual structure.
+    Restrictions: Unauthorized integration into proprietary codebases or AI systems constitutes a violation of both copyright and license terms.
 
-2. Open‑Source License (GPL‑3.0)
+📧 Contact & Collaboration
 
-The public version of this repository is released under the GNU GPL‑3.0 license.
-Any use of the HST concept under GPL‑3.0 requires compliance with all obligations of the license, including the requirement to release derivative works under GPL‑3.0.
-3. Commercial and Closed‑Source Use
+For commercial licensing or research partnerships:
+Pavel Krahulík 📩 pavel.krahulik.cestiny@gmail.com
+Copyright Notice
 
-Any commercial, proprietary, or closed‑source use of the HST concept — including the general HST framework, harmonic‑note transform, or any scalar‑field–based variant — requires a separate commercial license from the author.
-
-No company or individual is permitted to integrate HST into closed‑source software, AI models, or commercial products without obtaining such a license.
-4. Prohibition of Unauthorized Integration
-
-Unauthorized integration of the HST concept into proprietary codebases, AI systems, or commercial pipelines constitutes a violation of copyright and license terms.
-
-python hst_example.py
-This includes both direct use and derivative implementations based on the definitions provided in this repository.
-5. Proof of Authorship
-
-The public timestamp of this repository, together with the included PDF documentation, serves as verifiable evidence of authorship and priority of the HST concept.
-6. Contact
-
-For commercial licensing, research collaboration, or inquiries regarding permitted use, please contact the author directly.
-The author reserves all rights to pursue patent protection.
-
-Commercial licensing available upon request.
-Contact the author for closed‑source or commercial use.
+Copyright © 2024-2026 Pavel Krahulík. All rights reserved. The author reserves all rights to pursue patent protection and legal action against unauthorized commercial use.
