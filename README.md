@@ -28,7 +28,7 @@
 
 
 
-<h2> align="center">Strike a 3D shape like a bell — it rings its harmonic note.
+<h2 align="center">Strike a 3D shape like a bell — it rings its harmonic note.
 That note encodes the shape's intrinsic structure.
 HST uses it to map any shape to any other shape in 0.8s.
 Other methods ring louder when they start from this note.</h2>
