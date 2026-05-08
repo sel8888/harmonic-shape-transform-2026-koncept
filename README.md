@@ -59,29 +59,24 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 <tr>
 <td width="50%" valign="top">
 
-### Five World Firsts
+## 🚀 Key Innovations & Performance Milestones
 
-⭐ **Volumetric Laplace–Beltrami for correspondence**  
-All existing methods (FM, ZoomOut, HKS, BCICP) use surface-only operators.
-HST introduces the first volumetric spectral basis for global shape alignment.
+### ⭐ High-Performance Volumetric HST Framework
+While traditional spectral methods (FM, ZoomOut, BCICP) rely exclusively on surface-only operators, HST introduces **volumetric spectral stabilization**. By leveraging the interior geometry of the object, the HST Dual framework effectively resolves symmetry-breaking and local minima issues that frequently cause surface-based methods to fail.
 
-⭐ **First GPU Functional Maps implementation**  
-FM has existed for a decade — no GPU implementation was ever published.
-This repository contains the first known GPU FM solver.
+### ⭐ First Integrated Python/GPU Spectral Pipeline
+This is the first comprehensive Python solution that bridges the entire spectral correspondence chain in a single optimized pipeline:
+**Volumetric LB Eigenfunctions** → **HST Initialization** → **GPU Functional Maps** → **GPU ZoomOut**.
+The entire workflow remains within the GPU memory space, eliminating costly data transfers between environments.
 
-⭐ **First GPU ZoomOut refinement**  
-All existing ZoomOut implementations (MATLAB, Python, C++) are CPU-only.
-This achieves 6.5× speedup with identical accuracy.
+### ⭐ Extreme Acceleration: 11× Faster than CPU Baselines
+By leveraging massive GPU parallelism, we have reduced the processing time for a complete high-resolution benchmark (99 pairs) from **142 minutes to just 13 minutes**. This represents a major breakthrough in productivity for researchers and 3D artists alike.
 
-⭐ **First complete GPU spectral pipeline**  
-Volumetric LB eigenfunctions → HST initialization → GPU FM → GPU ZoomOut →
-GPU nearest-neighbor search → full FAUST benchmark (99/99 pairs).  
-**142 min → 13 min (11× speedup)**
+### ⭐ Optimized GPU ZoomOut & FM Implementation
+This project provides highly optimized Python/CUDA implementations of the ZoomOut and Functional Maps algorithms. Unlike standard CPU-based versions (SciPy/NumPy), our GPU engine achieves up to **6.5× speedup** while maintaining identical mathematical precision.
 
-⭐ **New hybrid algorithm: FM+HST**  
-Combining volumetric HST with FM produces a new class of spectral
-correspondence algorithms.
-
+### ⭐ Blender-Ready Spectral Engine
+HST is the first professional-grade spectral engine designed for seamless integration into the **Blender ecosystem**. By combining volumetric HST with classical Functional Maps, we introduce a new class of robust correspondence algorithms accessible to the broader 3D community.
 </td>
 <td width="50%" valign="top">
 
