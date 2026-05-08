@@ -1,3 +1,19 @@
+<p align="center">
+  <img width="200" height="200" alt="hst_avatar" src="https://github.com/user-attachments/assets/3659d12d-ff8e-4f49-847b-914806cde593" />
+</p>
+
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.20059602">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20059602.svg" alt="DOI"/>
+  </a>
+  <a href="https://arxiv.org/auth/endorse?x=HHE7CD">
+    <img src="https://img.shields.io/badge/arXiv-pending%20endorsement-b31b1b.svg" alt="arXiv"/>
+  </a>
+  <a href="https://github.com/sel8888/harmonic-shape-transform-2026-koncept/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License"/>
+  </a>
+</p>
+
 # Harmonic Shape Transform (HST)
 
 <p align="center">
