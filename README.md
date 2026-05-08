@@ -51,15 +51,36 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 
 ## 🏆 Scientific & Technical Significance
 
+<table border="0">
+<tr>
+<td width="50%" valign="top">
+
+### 🧪 World First Assertion
 > *To the best of the author's knowledge, this is the first publicly documented GPU-accelerated spectral shape correspondence pipeline that integrates a **volumetric Laplace–Beltrami operator** with the **Harmonic Shape Transform (HST)** framework for global initialization and refinement.*
 
-### 🛠️ The Complete GPU-Accelerated Pipeline:
-The project introduces a seamless, high-performance workflow where every stage is optimized for GPU execution:
-1. **Volumetric LB Eigenfunctions:** Extraction of spectral basis from the interior volume.
-2. **HST Initialization:** Global stabilization to prevent local minima and symmetry-breaking.
-3. **GPU Functional Maps (FM):** High-speed spectral alignment.
-4. **GPU ZoomOut:** Iterative spectral upsampling and refinement.
+**Key Innovations:**
+* **Volumetric Stability:** Resolves symmetry-breaking where surface methods fail.
+* **Extreme Acceleration:** **11× speedup** (142 min → 13 min).
+* **Blender Integration:** Professional-grade engine for the 3D community.
 
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ The Full GPU Pipeline
+The project introduces a seamless, high-performance workflow where every stage is optimized for GPU execution:
+
+1. **Volumetric LB Eigenfunctions**
+   *Extraction of spectral basis from interior volume.*
+2. **HST Initialization**
+   *Global stabilization to prevent local minima.*
+3. **GPU Functional Maps (FM)**
+   *High-speed spectral alignment.*
+4. **GPU ZoomOut**
+   *Iterative spectral upsampling and refinement.*
+
+</td>
+</tr>
+</table>
 ### 🚀 Key Innovations
 
 * **Volumetric Spectral Stabilization:** While traditional methods (FM, ZoomOut) rely exclusively on surface-only operators, HST introduces volumetric information to ensure global convergence where surface methods often fail.
