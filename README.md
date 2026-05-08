@@ -30,7 +30,7 @@
   </a>
 </p>
 
-# Harmonic Shape Transform (HST)
+<h1 align="center">Harmonic Shape Transform (HST)</h1>
 
 
 💡 "Hypotesis after testing HST Harmonic Note improves ANY spectral method as initialization."
