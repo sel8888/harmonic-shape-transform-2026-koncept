@@ -139,15 +139,23 @@ no existing academic or commercial system offers.
 
 ## 📊 Reproducibility & Benchmarking
 
-Full benchmarking suite available for independent verification.
+<table>
+<tr>
+<td width="50%" valign="top">
 
 **Benchmark Script:** [`hst_volumetric_faust_benchmark_v1.py`](./hst_volumetric_faust_benchmark_v1.py)  
 **Dataset:** MPI FAUST (Training set, 100 scans)  
-**Environment:** Blender 5.1+ with CUDA-enabled GPU
+**Environment:** Blender 5.1+ with CUDA-enabled GPU  
+📊 [hst_volumetric_GPU_benchmark.csv](hst_volumetric_GPU_benchmark.csv)
 
-📊 **Volumetric GPU results:** [hst_volumetric_GPU_benchmark.csv](hst_volumetric_GPU_benchmark.csv)
+</td>
+<td width="50%" valign="top">
 
-<img width="800" src="https://github.com/user-attachments/assets/b87a9aaa-40a9-4425-a84e-0ec1140cdbe2" />
+<img width="100%" src="https://github.com/user-attachments/assets/b87a9aaa-40a9-4425-a84e-0ec1140cdbe2" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -180,6 +188,10 @@ Two independent methods. Two different research groups. Same result.
 
 ## 🔬 CPU vs GPU — Identical Results
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 | Metric | CPU | GPU |
 |--------|-----|-----|
 | HST Note wins | 67/99 | 66/99 |
@@ -190,11 +202,17 @@ Two independent methods. Two different research groups. Same result.
 | Mean improvement (FMaps) | **52.5%** | **52.5%** |
 
 GPU float64 precision — zero numerical artifacts.  
-Results are **hardware-independent**.
-
+Results are **hardware-independent**.  
 📊 [hst_faust_full_benchmark.csv](hst_faust_full_benchmark.csv)
 
-<img width="800" src="https://github.com/user-attachments/assets/d8a459ce-36f2-44c6-b51e-de26aed56c67" />
+</td>
+<td width="50%" valign="top">
+
+<img width="100%" src="https://github.com/user-attachments/assets/d8a459ce-36f2-44c6-b51e-de26aed56c67" />
+
+</td>
+</tr>
+</table>
 
 ---
 
