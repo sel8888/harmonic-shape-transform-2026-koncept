@@ -37,6 +37,9 @@ Other methods ring louder when they start from this note.</h3>
 
 > <span style="color:green">🟢 </span> *"[ZoomOut] can be used in conjunction with existing initialization techniques."*
 > — Melzi et al., 2019
+>
+> *Functional Maps — 2012. ZoomOut — 2019. HST — 2026.*
+*Seven years. The answer was always one eigenfunction away.*
 > 
 **HST is that initialization technique.** +42.3% improvement over random. 0/99 random wins.
 
