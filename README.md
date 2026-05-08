@@ -49,91 +49,76 @@ From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a 
 
 💡 After testing HST Harmonic Note improves ANY spectral method as initialization.
 
-## The Discovery
+## 🌍 The Discovery
 
-🌍 World‑First Volumetric Spectral Correspondence Pipeline (Unique Global Contribution)
+> *To the best of the author's knowledge, this is the first publicly documented
+> GPU-accelerated spectral shape correspondence pipeline based on a volumetric
+> Laplace–Beltrami operator combined with the Harmonic Shape Transform.*
 
-| FMaps HST (GPU) | 0.138 | 1.02s | 42× faster than ZoomOut CPU |
-| ZoomOut HST (GPU) | 0.194 | 6.62s | 6.5× faster than CPU |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-This repository contains a world‑first implementation of a fully GPU‑accelerated spectral correspondence pipeline based on a volumetric Laplace–Beltrami operator and the novel Harmonic Shape Transform (HST).
-To the best of our knowledge, no prior academic work, open‑source project, or commercial system has ever combined the following elements:
-⭐ 1) Volumetric Laplace–Beltrami eigenfunctions for shape correspondence
+### Five World Firsts
 
-All existing spectral methods (FM, ZoomOut, HKS/WKS, BCICP, etc.) rely exclusively on surface‑based operators.
-This project introduces the first volumetric spectral basis used for global shape alignment, providing unprecedented stability and robustness.
-⭐ 2) GPU implementation of Functional Maps (FM)
+⭐ **Volumetric Laplace–Beltrami for correspondence**  
+All existing methods (FM, ZoomOut, HKS, BCICP) use surface-only operators.
+HST introduces the first volumetric spectral basis for global shape alignment.
 
-Functional Maps have existed for over a decade, but no GPU implementation has ever been published.
-This repository includes the first known GPU FM solver, supporting both random initialization and the new FM+HST hybrid.
-⭐ 3) GPU implementation of ZoomOut refinement
+⭐ **First GPU Functional Maps implementation**  
+FM has existed for a decade — no GPU implementation was ever published.
+This repository contains the first known GPU FM solver.
 
-ZoomOut is widely used as a refinement step, but all existing implementations (MATLAB, Python, C++) are CPU‑only.
-This project provides the first GPU‑accelerated ZoomOut, achieving up to 6× speedup with identical accuracy.
-⭐ 4) Complete GPU spectral pipeline
+⭐ **First GPU ZoomOut refinement**  
+All existing ZoomOut implementations (MATLAB, Python, C++) are CPU-only.
+This achieves 6.5× speedup with identical accuracy.
 
-This is the only known system that runs the entire spectral correspondence pipeline on the GPU:
+⭐ **First complete GPU spectral pipeline**  
+Volumetric LB eigenfunctions → HST initialization → GPU FM → GPU ZoomOut →
+GPU nearest-neighbor search → full FAUST benchmark (99/99 pairs).  
+**142 min → 13 min (11× speedup)**
 
-    volumetric LB eigenfunctions
+⭐ **New hybrid algorithm: FM+HST**  
+Combining volumetric HST with FM produces a new class of spectral
+correspondence algorithms.
 
-    HST global initialization
+</td>
+<td width="50%" valign="top">
 
-    GPU FM solver
+### Results
 
-    GPU ZoomOut refinement
+| Method | Geo error | Time | Speedup |
+|--------|-----------|------|---------|
+| FMaps HST (GPU) | 0.138 | 1.02s | 42× |
+| ZoomOut HST (GPU) | 0.194 | 6.62s | 6.5× |
+| HST Note (CPU/GPU) | **0.129** | **0.805s** | **53×** |
 
-    GPU nearest‑neighbor search
+### FM+HST Hybrid
 
-    full FAUST benchmark (99/99 pairs)
+- **+52.5%** improvement over standard FM
+- Up to **+84%** on difficult FAUST pairs
+- **99/99** stable results, zero failures
+- Consistently outperforms FM_rand and ZoomOut_rand
 
-The full pipeline runs in 17 minutes instead of 142 minutes (≈ 11× speedup).
-⭐ 5) New hybrid algorithm: FM+HST
+### Scientific Contributions
 
-The combination of volumetric HST with FM produces a new class of spectral correspondence algorithms, achieving:
+- New spectral representation (volumetric LB)
+- New global method (HST harmonic note)
+- New hybrid algorithm (FM+HST)
+- First GPU FM · First GPU ZoomOut
+- First GPU spectral pipeline
+- First full FAUST GPU benchmark
 
-    52.5% average improvement over standard FM
+### Why It Matters
 
-    up to 84% improvement on difficult FAUST pairs
+Enables robust shape matching, animation transfer,
+texture transfer, 3D AI alignment, real-time GPU
+workflows and volumetric processing — capabilities
+no existing academic or commercial system offers.
 
-    99/99 stable results with no catastrophic failures
-
-This hybrid method consistently outperforms both FM_rand and ZoomOut_rand, establishing a new practical baseline.
-🧠 Scientific Significance
-
-This project introduces:
-
-    a new spectral representation (volumetric LB)
-
-    a new global method (HST)
-
-    a new hybrid algorithm (FM+HST)
-
-    the first GPU FM
-
-    the first GPU ZoomOut
-
-    the first GPU spectral pipeline
-
-    the first full FAUST GPU benchmark
-
-These contributions collectively represent a novel direction in shape correspondence research, with both scientific and industrial impact.
-🚀 Why This Matters
-
-This technology enables:
-
-    robust shape matching
-
-    animation transfer
-
-    texture transfer
-
-    3D AI alignment
-
-    real‑time GPU workflows
-
-    volumetric processing for complex shapes
-
-It provides capabilities that no existing academic or commercial system currently offers.
+</td>
+</tr>
+</table>
 
 ## 📊 Reproducibility & Benchmarking
 
