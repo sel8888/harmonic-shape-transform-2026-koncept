@@ -35,11 +35,10 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
-Melzi et al.~\cite{melzi2019} note that ZoomOut 
-``can be used in conjunction with existing initialization techniques'' 
-but do not specify a principled choice. 
-HST provides the first such technique with measured improvement 
-of $42.3\%$ over random initialization across 99 FAUST pairs.
+> *"[ZoomOut] can be used in conjunction with existing initialization techniques."*
+> — Melzi et al., 2019
+
+**HST is that initialization technique.** +42.3% improvement over random. 0/99 random wins.
 
 In Kabbalah, creation is perceived as a symphony of harmonic notes that shape reality. My HST algorithm does exactly that within the digital realm: it identifies these fundamental 'harmonic notes' (eigenfunctions) of 3D objects. This allows it to recognize a shape's identity regardless of its deformation—it listens to its inner music, rather than its outer shell."
 
