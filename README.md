@@ -16,6 +16,9 @@
     <img src="https://img.shields.io/badge/paper-CC%20BY--NC%204.0-lightgrey.svg" alt="CC BY-NC 4.0"/>
   </a>
   <img src="https://img.shields.io/badge/python-3.10%2B-3776AB.svg?logo=python&logoColor=white" alt="Python"/>
+  <a href="mailto:Pavel.krahulik.cestiny@gmail.com">
+    <img src="https://img.shields.io/badge/contact-Pavel.krahulik.cestiny%40gmail.com-EA4335.svg?logo=gmail&logoColor=white" alt="Email"/>
+  </a>
 </p>
 
 # Harmonic Shape Transform (HST)
