@@ -115,6 +115,9 @@ To maintain full transparency, the complete benchmarking suite used to generate 
 
 📊 **Volumetric GPU results:** [hst_volumetric_GPU_benchmark.csv](hst_volumetric_GPU_benchmark.csv)
 
+# My benchmark fields:
+fields = ['pair_idx', 'geo_hst_surf', 'geo_hst_vol', 'imp_zo_vol', 'backend', 'status']
+
 <img width="2684" height="1622" alt="hst_final_complete" src="https://github.com/user-attachments/assets/b87a9aaa-40a9-4425-a84e-0ec1140cdbe2" />
 
 
