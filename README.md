@@ -82,12 +82,6 @@ The project introduces a seamless, high-performance workflow where every stage i
 </tr>
 </table>
 
-## 🚀 Key Innovations
-
-* **Volumetric Spectral Stabilization:** While traditional methods (FM, ZoomOut) rely exclusively on surface-only operators, HST introduces volumetric information to ensure global convergence where surface methods often fail.
-* **Extreme Acceleration:** Reduced processing time for a complete high-resolution benchmark (99 pairs) from **142 minutes to just 13 minutes** (11× speedup).
-* **Blender-Ready Implementation:** The first professional-grade spectral engine designed for seamless integration into the Blender ecosystem, making advanced 3D research accessible to artists and developers.
-
 <table>
 <tr>
 <td width="50%" valign="top">
