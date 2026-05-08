@@ -81,7 +81,8 @@ The project introduces a seamless, high-performance workflow where every stage i
 </td>
 </tr>
 </table>
-### 🚀 Key Innovations
+
+## 🚀 Key Innovations
 
 * **Volumetric Spectral Stabilization:** While traditional methods (FM, ZoomOut) rely exclusively on surface-only operators, HST introduces volumetric information to ensure global convergence where surface methods often fail.
 * **Extreme Acceleration:** Reduced processing time for a complete high-resolution benchmark (99 pairs) from **142 minutes to just 13 minutes** (11× speedup).
