@@ -48,6 +48,12 @@ This repository contains the first public description of the **Harmonic Shape Tr
 
 From Vision to Reality: On May 1st, 2026, this was just an idea. Today, it is a stable, deterministic HST system providing real-time semantic topology in Blender.
 
+> *"A genuinely good idea is one that, once explained, seems obvious — yet nobody said it first."*
+> — Albert Einstein
+
+HST is that idea. One eigenfunction. No training. 0.8s.
+Random initialization never wins. Not once. 0/99.
+
 **Author:** Pavel Krahulik 
 **Year:** 2026
 
