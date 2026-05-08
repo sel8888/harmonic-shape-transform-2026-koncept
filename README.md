@@ -4,29 +4,23 @@
 
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.20059602">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.20059602.svg" alt="DOI"/>
+    <img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20059602-blue.svg" alt="DOI"/>
   </a>
-  &nbsp;
   <a href="https://arxiv.org/auth/endorse?x=HHE7CD">
-    <img src="https://img.shields.io/badge/arXiv-pending%20endorsement-b31b1b.svg" alt="arXiv"/>
+    <img src="https://img.shields.io/badge/arXiv-pending-b31b1b.svg" alt="arXiv"/>
   </a>
-  &nbsp;
-  <a href="https://github.com/sel8888/harmonic-shape-transform-2026-koncept/blob/main/LICENSE">
+  <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="GPL-3.0"/>
   </a>
-  &nbsp;
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">
     <img src="https://img.shields.io/badge/paper-CC%20BY--NC%204.0-lightgrey.svg" alt="CC BY-NC 4.0"/>
   </a>
-  &nbsp;
   <img src="https://img.shields.io/badge/python-3.10%2B-3776AB.svg?logo=python&logoColor=white" alt="Python"/>
-  &nbsp;
   <a href="mailto:Pavel.krahulik.cestiny@gmail.com">
-    <img src="https://img.shields.io/badge/contact-Pavel.krahulik.cestiny%40gmail.com-EA4335.svg?logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/contact-email-EA4335.svg?logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  &nbsp;
-  <a href="https://github.com/sel8888/harmonic-shape-transform-2026-koncept/blob/main/validation_report.md">
-    <img src="https://img.shields.io/badge/validation-report-success.svg" alt="Validation Report"/>
+  <a href="validation_report.md">
+    <img src="https://img.shields.io/badge/validation-report-success.svg" alt="Validation"/>
   </a>
 </p>
 
