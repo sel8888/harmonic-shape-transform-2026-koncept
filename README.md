@@ -48,7 +48,11 @@ For 14 years, the field focused on the complexity of the surface. HST looks at t
 
 ---
 
+<center>
+
 ### 🗝️ The Golden Key
+
+</center>
 
 I have handed the community a **Golden Key** to a room that has been locked since 2012. 
 
