@@ -36,11 +36,6 @@ Other methods ring louder when they start from this note.</h3>
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
 ### Community Impact & Validation
-<sub align="right">
-  <a href="https://arxiv.org/auth/endorse?x=HHE7CD">
-    <img src="https://img.shields.io/badge/arXiv-pending-b31b1b.svg" alt="arXiv"/>
-  </a>
-</sub>
 
 <small>
 The <b>Harmonic Shape Transform (HST)</b> has achieved significant organic adoption within its first 7 days:
