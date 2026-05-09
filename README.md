@@ -66,14 +66,16 @@ HST doesn't just run faster; it makes subsequent spectral algorithms (ZoomOut, F
 |--------|--------|-----|---------|
 | HST Note geo error | 0.12949 | **0.12949** | identical |
 | HST full pipeline | 0.805s | **0.557s** | **1.4×** |
+| HST mapping only* | — | **0.009s** | — |
 | ZoomOut time | 42.8s | **6.5s** | **6.5×** |
 | FMaps time | ~15s | **1.1s** | **13.4×** |
 | FMaps+HST improvement | 52.5% | **52.5%** | identical |
 | ZoomOut+HST improvement | 42.3% | 39.6% | ~same |
 
-99/99 pairs · Zero failures · Identical accuracy · CPU only
+*HST mapping only = select_best_note + hst_map, excludes eigenvector computation.  
+Full pipeline = Laplacian + eigenvectors + HST mapping.
 
-📦 C++ source: [`hst_cpp/`](hst_cpp/)
+99/99 pairs · Zero failures · Identical accuracy · CPU only
 
 ### Key Technical Insights:
 * **Sub-second Pipeline:** The entire symmetry recovery and correspondence refinement pipeline now completes in **under 0.5 seconds**.
