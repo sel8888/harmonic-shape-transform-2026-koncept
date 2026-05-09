@@ -69,11 +69,20 @@ HST Note:        mean=0.12949
 
 HST doesn't just run faster; it makes subsequent spectral algorithms (ZoomOut, FMaps) converge up to 80% more effectively by providing a superior volumetric starting point.
 
-| Module | Python/SOTA Baseline | **HST C++ Implementation** | **Speedup** |
-| :--- | :--- | :--- | :--- |
-| **HST Core** | ~1.0s | **0.129s** | **~8×** |
-| **ZoomOut HST** | 5.0s – 10.0s | **0.193s** | **25 – 50×** |
-| **FMaps HST** | ~0.5s | **0.138s** | **~4×** |
+## ⚡ C++ Implementation — Benchmark vs Python
+
+| Method | Python | C++ | Speedup |
+|--------|--------|-----|---------|
+| HST Note geo error | 0.12949 | **0.12949** | identical |
+| HST Note time | 0.805s | **0.009s** | **90×** |
+| ZoomOut time | 42.8s | **6.6s** | **6.5×** |
+| FMaps time | ~15s | **1.1s** | **~13×** |
+| FMaps+HST improvement | 52.5% | **52.5%** | identical |
+| ZoomOut+HST improvement | 42.3% | 39.6% | ~same |
+
+99/99 pairs · Zero failures · Identical accuracy · CPU only (no GPU)
+
+📦 C++ source: [`hst_cpp/`](hst_cpp/)
 
 ### Key Technical Insights:
 * **Sub-second Pipeline:** The entire symmetry recovery and correspondence refinement pipeline now completes in **under 0.5 seconds**.
