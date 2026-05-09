@@ -71,7 +71,31 @@ If this tool saves you from **Symmetry Flips** or accelerates your pipeline by *
 
 HST doesn't just run faster; it makes subsequent spectral algorithms (ZoomOut, FMaps) converge up to 80% more effectively by providing a superior volumetric starting point.
 
-## ⚡ C++ Implementation — Full Benchmark
+# Deterministic Mean (FAUST 99 pairs)
+
+Across all four implementations:
+
+- Python CPU  
+- Python GPU  
+- C++ CPU  
+- C++ GPU  
+
+the mean error over all **99 FAUST pairs** is:
+
+**0.12949 (identical in every implementation)**
+
+This is not randomness —  
+**this is determinism.**
+
+---
+
+# ⚡ C++ Implementation — Full Benchmark
+
+<div style="display: flex; gap: 24px;">
+
+<div style="flex: 1;">
+
+## **Accuracy & Performance**
 
 | Method | Python | C++ CPU | C++ GPU | vs Python |
 |--------|--------|---------|---------|-----------|
@@ -82,26 +106,45 @@ HST doesn't just run faster; it makes subsequent spectral algorithms (ZoomOut, F
 | FMaps+HST improvement | 52.5% | 52.5% | **52.5%** | identical |
 | ZoomOut+HST improvement | 42.3% | 36.1% | 36.1% | ~same |
 
-99/99 pairs · Zero failures · Identical accuracy · RTX 4070 · CUDA 11.5
-Windows11 -> WSL -> Ubuntu
+**99/99 pairs · Zero failures · Identical accuracy**  
+**RTX 4070 · CUDA 11.5**  
+**Windows11 → WSL → Ubuntu**
 
-> Geo error is identical across Python, C++ CPU and C++ GPU —
+> Geo error is identical across Python, C++ CPU and C++ GPU —  
 > results are fully hardware-independent.
 
-*HST mapping only = select_best_note + hst_map, excludes eigenvector computation.  
-Full pipeline = Laplacian + eigenvectors + HST mapping.
+*HST mapping only = select_best_note + hst_map, excludes eigenvector computation.*  
+*Full pipeline = Laplacian + eigenvectors + HST mapping.*
 
-99/99 pairs · Zero failures · Identical accuracy · CPU only
+</div>
 
-Platform: GitHub Codespaces (Universal Image)
-Host: Microsoft Azure (Standard_DS2_v2)
-Specs: 2-core / 4-core vCPU, 8GB RAM, Ubuntu 22.04 LTS
-Compiler: GCC 11 / C++17
+<div style="flex: 1;">
 
-### Key Technical Insights:
-* **Sub-second Pipeline:** The entire symmetry recovery and correspondence refinement pipeline now completes in **under 0.5 seconds**.
-* **Deterministic Real-time:** These results enable interactive workflows (e.g., live rigging, weight painting transfer) within DCC tools like Blender without the latency associated with traditional spectral methods.
-* **Scalability:** The C++ backend maintains high performance on meshes exceeding 50k+ vertices, where Python-based solutions typically hit memory and processing bottlenecks.
+## **CPU‑Only Validation (GitHub Codespaces)**
+
+**99/99 pairs · Zero failures · Identical accuracy · CPU only**
+
+**Platform:** GitHub Codespaces (Universal Image)  
+**Host:** Microsoft Azure (Standard_DS2_v2)  
+**Specs:** 2‑core / 4‑core vCPU, 8GB RAM, Ubuntu 22.04 LTS  
+**Compiler:** GCC 11 / C++17  
+
+### **Key Technical Insights**
+
+- **Sub‑second Pipeline:**  
+  Entire symmetry recovery + refinement completes in **under 0.5 seconds**.
+
+- **Deterministic Real‑time:**  
+  Enables interactive workflows (rigging, weight transfer, deformation tools)  
+  inside DCC apps like Blender — without spectral‑method latency.
+
+- **Scalability:**  
+  C++ backend maintains high performance on meshes **50k+ vertices**,  
+  where Python implementations typically hit memory and speed limits.
+
+</div>
+
+</div>
 
 > **Note on Validation:** These preliminary results are currently being cross-validated against private production datasets to ensure 100% robustness across non-manifold and complex topologies before the full core release.
 
