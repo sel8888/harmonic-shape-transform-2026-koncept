@@ -35,7 +35,7 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
-¨---
+---
 
 > "Simplicity is the ultimate sophistication."  
 > — *Leonardo da Vinci*
