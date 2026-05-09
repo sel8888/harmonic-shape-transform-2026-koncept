@@ -77,6 +77,11 @@ Full pipeline = Laplacian + eigenvectors + HST mapping.
 
 99/99 pairs · Zero failures · Identical accuracy · CPU only
 
+Platform: GitHub Codespaces (Universal Image)
+Host: Microsoft Azure (Standard_DS2_v2)
+Specs: 2-core / 4-core vCPU, 8GB RAM, Ubuntu 22.04 LTS
+Compiler: GCC 11 / C++17
+
 ### Key Technical Insights:
 * **Sub-second Pipeline:** The entire symmetry recovery and correspondence refinement pipeline now completes in **under 0.5 seconds**.
 * **Deterministic Real-time:** These results enable interactive workflows (e.g., live rigging, weight painting transfer) within DCC tools like Blender without the latency associated with traditional spectral methods.
