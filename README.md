@@ -41,16 +41,13 @@ Other methods ring louder when they start from this note.</h3>
 The <b>Harmonic Shape Transform (HST)</b> has achieved significant organic adoption within its first 7 days:
 </small>
 
-* **789+ Unique Cloners** – <small>Active integration by developers and researchers.</small>
-* **0% Failure Rate** – <small>Zero symmetry flips across 2,000+ validated correspondences.</small>
-* **11x Speedup** – <small>Reducing compute time from 142 min to 13 min.</small>
-
 ---
 
 #### <small>Seeking arXiv Endorsement (cs.GR / cs.CV)</small>
 <small>
 If you are an established researcher and have found HST valuable, I would greatly appreciate your endorsement via the link above. This will help formalize this volumetric approach as the new standard for spectral initialization.
 </small>
+* **789+ Unique Cloners** – <small>Active integration by developers and researchers.</small>
 
 > <small><i>"The answer was always one eigenfunction away. Now, the circle is complete."</i></small>
 
