@@ -43,7 +43,7 @@ The <b>Harmonic Shape Transform (HST)</b> has achieved significant organic adopt
 
 ---
 
-#### <small>Seeking arXiv Endorsement (cs.GR / cs.CV)</small>
+#### <small>🔴Seeking arXiv Endorsement (cs.GR / cs.CV)</small>
 <small>
 If you are an established researcher and have found HST valuable, I would greatly appreciate your endorsement via the link above. This will help formalize this volumetric approach as the new standard for spectral initialization.
 </small>
