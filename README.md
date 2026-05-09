@@ -46,7 +46,9 @@ The **Harmonic Shape Transform (HST)** has seen explosive organic growth within 
 While the code is already being widely adopted by the community, I am currently seeking an **arXiv endorsement** in the following categories:
 * **cs.GR** (Computer Graphics)
 * **cs.CV** (Computer Vision)
-
+<a href="https://arxiv.org/auth/endorse?x=HHE7CD">
+    <img src="https://img.shields.io/badge/arXiv-pending-b31b1b.svg" alt="arXiv"/>
+    
 If you are an established researcher in these fields and have found HST valuable for your work, **I would greatly appreciate your endorsement.** Your support will help formalize this volumetric approach as the new standard for spectral initialization.
 
 Please reach out via GitHub Issues or directly if you can assist with the endorsement process.
