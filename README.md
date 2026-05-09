@@ -77,10 +77,6 @@ Windows11 -> WSL -> Ubuntu
 > Geo error is identical across Python, C++ CPU and C++ GPU —
 > results are fully hardware-independent.
 
-📦 C++ source: [`hst_cpp/`](hst_cpp/)  
-📊 CPU results: [`hst_benchmark_cpp.csv`](hst_benchmark_cpp.csv)  
-📊 GPU results: [`hst_benchmark_cpp_gpu.csv`](hst_benchmark_cpp_gpu.csv)
-
 *HST mapping only = select_best_note + hst_map, excludes eigenvector computation.  
 Full pipeline = Laplacian + eigenvectors + HST mapping.
 
