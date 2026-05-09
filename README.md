@@ -74,13 +74,13 @@ HST doesn't just run faster; it makes subsequent spectral algorithms (ZoomOut, F
 | Method | Python | C++ | Speedup |
 |--------|--------|-----|---------|
 | HST Note geo error | 0.12949 | **0.12949** | identical |
-| HST Note time | 0.805s | **0.009s** | **90×** |
-| ZoomOut time | 42.8s | **6.6s** | **6.5×** |
-| FMaps time | ~15s | **1.1s** | **~13×** |
+| HST full pipeline | 0.805s | **0.557s** | **1.4×** |
+| ZoomOut time | 42.8s | **6.5s** | **6.5×** |
+| FMaps time | ~15s | **1.1s** | **13.4×** |
 | FMaps+HST improvement | 52.5% | **52.5%** | identical |
 | ZoomOut+HST improvement | 42.3% | 39.6% | ~same |
 
-99/99 pairs · Zero failures · Identical accuracy · CPU only (no GPU)
+99/99 pairs · Zero failures · Identical accuracy · CPU only
 
 📦 C++ source: [`hst_cpp/`](hst_cpp/)
 
