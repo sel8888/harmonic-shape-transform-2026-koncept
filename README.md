@@ -35,23 +35,29 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
-## Community Traction & Call for arXiv Endorsement
+### 🚀 Community Impact & Validation
+<sub align="right">
+  <a href="https://arxiv.org/auth/endorse?x=HHE7CD">
+    <img src="https://img.shields.io/badge/arXiv-pending-b31b1b.svg" alt="arXiv"/>
+  </a>
+</sub>
 
-The **Harmonic Shape Transform (HST)** has seen explosive organic growth within its first 7 days:
-* **789+ Unique Cloners** – Active integration by developers and researchers.
-* **0% Failure Rate** – 0 symmetry flips across 2,000+ validated correspondences.
-* **11x Speedup** – Moving the industry standard from 142 min to 13 min.
+<small>
+The <b>Harmonic Shape Transform (HST)</b> has achieved significant organic adoption within its first 7 days:
+</small>
 
-## Seeking arXiv Endorsement
-While the code is already being widely adopted by the community, I am currently seeking an **arXiv endorsement** in the following categories:
-* **cs.GR** (Computer Graphics)
-* **cs.CV** (Computer Vision)
-* 
-<a href="https://arxiv.org/auth/endorse?x=HHE7CD">
-     
-If you are an established researcher in these fields and have found HST valuable for your work, **I would greatly appreciate your endorsement.** Your support will help formalize this volumetric approach as the new standard for spectral initialization.
+* **789+ Unique Cloners** – <small>Active integration by developers and researchers.</small>
+* **0% Failure Rate** – <small>Zero symmetry flips across 2,000+ validated correspondences.</small>
+* **11x Speedup** – <small>Reducing compute time from 142 min to 13 min.</small>
 
-Please reach out via GitHub Issues or directly if you can assist with the endorsement process.
+---
+
+#### 📢 <small>Seeking arXiv Endorsement (cs.GR / cs.CV)</small>
+<small>
+If you are an established researcher and have found HST valuable, I would greatly appreciate your endorsement via the link above. This will help formalize this volumetric approach as the new standard for spectral initialization.
+</small>
+
+> <small><i>"The answer was always one eigenfunction away. Now, the circle is complete."</i></small>
 
 ---
 
