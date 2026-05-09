@@ -58,7 +58,7 @@ If this tool saves you from **Symmetry Flips** or accelerates your pipeline by *
 
 ---
 
-## ⚡ Performance Breakthrough: C++ Implementation Results
+## -> Performance Breakthrough: C++ Implementation Results
 
 The transition from Python/NumPy to a native **C++17 (Eigen3/LAPACK)** implementation has yielded transformative performance gains. By leveraging direct memory access and optimized linear algebra kernels, HST now operates at true real-time speeds even on high-resolution production meshes.
 
