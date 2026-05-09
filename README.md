@@ -35,7 +35,7 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
-### 🚀 Community Impact & Validation
+### Community Impact & Validation
 <sub align="right">
   <a href="https://arxiv.org/auth/endorse?x=HHE7CD">
     <img src="https://img.shields.io/badge/arXiv-pending-b31b1b.svg" alt="arXiv"/>
@@ -52,7 +52,7 @@ The <b>Harmonic Shape Transform (HST)</b> has achieved significant organic adopt
 
 ---
 
-#### 📢 <small>Seeking arXiv Endorsement (cs.GR / cs.CV)</small>
+#### <small>Seeking arXiv Endorsement (cs.GR / cs.CV)</small>
 <small>
 If you are an established researcher and have found HST valuable, I would greatly appreciate your endorsement via the link above. This will help formalize this volumetric approach as the new standard for spectral initialization.
 </small>
