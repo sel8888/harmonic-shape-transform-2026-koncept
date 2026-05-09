@@ -58,15 +58,6 @@ If this tool saves you from **Symmetry Flips** or accelerates your pipeline by *
 
 ---
 
-## -> Performance Breakthrough: C++ Implementation Results
-
-The transition from Python/NumPy to a native **C++17 (Eigen3/LAPACK)** implementation has yielded transformative performance gains. By leveraging direct memory access and optimized linear algebra kernels, HST now operates at true real-time speeds even on high-resolution production meshes.
-
-### Benchmark Comparison (Single-threaded)
-
-NEW C++ IMPLEMENTATION === SUMMARY: 99/99 pairs ===
-HST Note:        mean=0.12949
-
 HST doesn't just run faster; it makes subsequent spectral algorithms (ZoomOut, FMaps) converge up to 80% more effectively by providing a superior volumetric starting point.
 
 ## ⚡ C++ Implementation — Benchmark vs Python
