@@ -111,6 +111,7 @@ If you are an established researcher and have found HST valuable, I would greatl
 >
 > *Functional Maps — 2012. ZoomOut — 2019. HST(I/O limit) — 2026.*
 *Seven years. The answer was always one eigenfunction away.*
+> 
 > Seven days of public development are complete; I am now moving to private research. Thanks to everyone.
 > 
 **HST is that initialization technique.** +42.3% improvement over random. 0/99 random wins.
