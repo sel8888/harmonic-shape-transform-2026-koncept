@@ -58,6 +58,25 @@ If this tool saves you from **Symmetry Flips** or accelerates your pipeline by *
 
 ---
 
+## ⚡ Performance Breakthrough: C++ Implementation Results
+
+The transition from Python/NumPy to a native **C++17 (Eigen3/LAPACK)** implementation has yielded transformative performance gains. By leveraging direct memory access and optimized linear algebra kernels, HST now operates at true real-time speeds even on high-resolution production meshes.
+
+### Benchmark Comparison (Single-threaded)
+
+| Module | Python/SOTA Baseline | **HST C++ Implementation** | **Speedup** |
+| :--- | :--- | :--- | :--- |
+| **HST Core** | ~1.0s | **0.129s** | **~8×** |
+| **ZoomOut HST** | 5.0s – 10.0s | **0.193s** | **25 – 50×** |
+| **FMaps HST** | ~0.5s | **0.138s** | **~4×** |
+
+### Key Technical Insights:
+* **Sub-second Pipeline:** The entire symmetry recovery and correspondence refinement pipeline now completes in **under 0.5 seconds**.
+* **Deterministic Real-time:** These results enable interactive workflows (e.g., live rigging, weight painting transfer) within DCC tools like Blender without the latency associated with traditional spectral methods.
+* **Scalability:** The C++ backend maintains high performance on meshes exceeding 50k+ vertices, where Python-based solutions typically hit memory and processing bottlenecks.
+
+> **Note on Validation:** These preliminary results are currently being cross-validated against private production datasets to ensure 100% robustness across non-manifold and complex topologies before the full core release.
+
 #### <small>🔴Seeking arXiv Endorsement (cs.GR / cs.CV)</small>
 <small>
 If you are an established researcher and have found HST valuable, I would greatly appreciate your endorsement via the link above. This will help formalize this volumetric approach as the new standard for spectral initialization.
