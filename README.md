@@ -35,7 +35,16 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
-Seven days of public development are complete; I am now moving to private research. Thanks to everyone.
+¨---
+
+> "Simplicity is the ultimate sophistication."  
+> — *Leonardo da Vinci*
+
+---
+
+**"7 days of public development are complete; I am now moving to private research. Thanks to everyone."**
+
+
 
 ---
 
