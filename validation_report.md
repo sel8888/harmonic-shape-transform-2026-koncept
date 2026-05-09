@@ -225,6 +225,11 @@ tiebreak_tol = 0.001
 
 ---
 
+<img width="2191" height="1388" alt="hst_cpu_gpu_comparison" src="https://github.com/user-attachments/assets/e182160c-2236-46df-b712-dda9eab63076" />
+<img width="2434" height="1910" alt="hst_complete_benchmark" src="https://github.com/user-attachments/assets/245921e2-672c-494a-8b30-422ce1c7fc7b" />
+<img width="1890" height="1074" alt="hst_summary_table" src="https://github.com/user-attachments/assets/ddbd4b16-f1b5-4597-a5c0-d43553d449ea" />
+
+
 ## 10. Conclusion
 
 > *"Random initialization never wins. Not once. 0/99."*
