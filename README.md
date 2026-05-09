@@ -60,17 +60,25 @@ If this tool saves you from **Symmetry Flips** or accelerates your pipeline by *
 
 HST doesn't just run faster; it makes subsequent spectral algorithms (ZoomOut, FMaps) converge up to 80% more effectively by providing a superior volumetric starting point.
 
-## ⚡ C++ Implementation — Benchmark vs Python
+## ⚡ C++ Implementation — Full Benchmark
 
-| Method | Python | C++ | Speedup |
-|--------|--------|-----|---------|
-| HST Note geo error | 0.12949 | **0.12949** | identical |
-| HST full pipeline | 0.805s | **0.557s** | **1.4×** |
-| HST mapping only* | — | **0.009s** | — |
-| ZoomOut time | 42.8s | **6.5s** | **6.5×** |
-| FMaps time | ~15s | **1.1s** | **13.4×** |
-| FMaps+HST improvement | 52.5% | **52.5%** | identical |
-| ZoomOut+HST improvement | 42.3% | 39.6% | ~same |
+| Method | Python | C++ CPU | C++ GPU | vs Python |
+|--------|--------|---------|---------|-----------|
+| HST Note geo error | 0.12949 | **0.12949** | **0.12949** | identical |
+| HST full pipeline | 0.805s | 0.557s | 0.592s | 1.4× |
+| ZoomOut time | 42.8s | 6.5s | **4.9s** | **8.8×** |
+| FMaps time | ~15s | 1.1s | **0.84s** | **17.9×** |
+| FMaps+HST improvement | 52.5% | 52.5% | **52.5%** | identical |
+| ZoomOut+HST improvement | 42.3% | 36.1% | 36.1% | ~same |
+
+99/99 pairs · Zero failures · Identical accuracy · RTX 4070 · CUDA 11.5
+
+> Geo error is identical across Python, C++ CPU and C++ GPU —
+> results are fully hardware-independent.
+
+📦 C++ source: [`hst_cpp/`](hst_cpp/)  
+📊 CPU results: [`hst_benchmark_cpp.csv`](hst_benchmark_cpp.csv)  
+📊 GPU results: [`hst_benchmark_cpp_gpu.csv`](hst_benchmark_cpp_gpu.csv)
 
 *HST mapping only = select_best_note + hst_map, excludes eigenvector computation.  
 Full pipeline = Laplacian + eigenvectors + HST mapping.
