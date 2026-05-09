@@ -64,6 +64,9 @@ The transition from Python/NumPy to a native **C++17 (Eigen3/LAPACK)** implement
 
 ### Benchmark Comparison (Single-threaded)
 
+NEW C++ IMPLEMENTATION === SUMMARY: 99/99 pairs ===
+HST Note:        mean=0.12949
+
 | Module | Python/SOTA Baseline | **HST C++ Implementation** | **Speedup** |
 | :--- | :--- | :--- | :--- |
 | **HST Core** | ~1.0s | **0.129s** | **~8×** |
