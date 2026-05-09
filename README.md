@@ -46,6 +46,20 @@ The <b>Harmonic Shape Transform (HST)</b> has achieved significant organic adopt
 The Solution was Hidden in Plain Sight.
 For 14 years, the field focused on the complexity of the surface. HST looks at the integrity of the volume. It is not just an optimization; it is a physical constant of the shape. If you use this code and it saves you hours of work, the only thing missing is formal recognition.
 
+---
+
+### 🗝️ The Golden Key
+
+I have handed the community a **Golden Key** to a room that has been locked since 2012. 
+
+**HST** solves the global initialization problem by uncovering the volumetric integrity that was hidden in plain sight. It reaches the absolute physical limits of current hardware (**I/O bound**).
+
+If this tool saves you from **Symmetry Flips** or accelerates your pipeline by **10x**, I have done my part. As an independent developer without an institution or team, I have given you the key. 
+
+**All I ask in return is the professional courtesy of an endorsement.** [🔴 Endorse HST on arXiv](https://arxiv.org/auth/endorse?x=HHE7CD)
+
+---
+
 #### <small>🔴Seeking arXiv Endorsement (cs.GR / cs.CV)</small>
 <small>
 If you are an established researcher and have found HST valuable, I would greatly appreciate your endorsement via the link above. This will help formalize this volumetric approach as the new standard for spectral initialization.
