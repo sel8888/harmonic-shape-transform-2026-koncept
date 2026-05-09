@@ -72,6 +72,7 @@ HST doesn't just run faster; it makes subsequent spectral algorithms (ZoomOut, F
 | ZoomOut+HST improvement | 42.3% | 36.1% | 36.1% | ~same |
 
 99/99 pairs · Zero failures · Identical accuracy · RTX 4070 · CUDA 11.5
+Windows11 -> WSL -> Ubuntu
 
 > Geo error is identical across Python, C++ CPU and C++ GPU —
 > results are fully hardware-independent.
