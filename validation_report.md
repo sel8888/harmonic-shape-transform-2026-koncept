@@ -4,6 +4,9 @@ Pavel Krahulík · May 2026 · doi.org/10.5281/zenodo.20059602
 
 ---
 
+<img width="2700" height="2439" alt="hst_spectral_analysis" src="https://github.com/user-attachments/assets/0204de7d-a165-4286-852c-09a0e15f0108" />
+
+
 ## Summary
 
 <table>
