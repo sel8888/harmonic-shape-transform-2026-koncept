@@ -184,7 +184,7 @@ This is not randomness —
 <small>
 If you are an established researcher and have found HST valuable, I would greatly appreciate your endorsement via the link above. This will help formalize this volumetric approach as the new standard for spectral initialization.
 </small>
-* **789+ Unique Cloners** – <small>Active integration by developers and researchers.</small>
+* **923+ Unique Cloners** – <small>Active integration by developers and researchers.</small>
 
 > <small><i>"The answer was always one eigenfunction away. Now, the circle is complete."</i></small>
 
