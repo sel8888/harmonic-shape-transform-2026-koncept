@@ -3,7 +3,7 @@
 Pavel Krahulík · May 2026 · doi.org/10.5281/zenodo.20059602
 
 ---
-PRIVATE WORK CSV GPU 99 Pairs 
+PRIVATE WORK CSV C++ GPU 99 Pairs 
 
 [hst_pipeline_v5_gpu.csv](https://github.com/user-attachments/files/27567422/hst_pipeline_v5_gpu.csv)
 
