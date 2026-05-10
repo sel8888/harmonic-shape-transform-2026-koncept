@@ -80,7 +80,7 @@ The synergy of the `CHAIN` pipeline demonstrates consistent improvement over bas
 * **Zero-Shot Precision:** Achieved high-fidelity results (e.g., **0.0363** error) without any training data or manual landmarks.
 * **100% Custom IP:** Entirely proprietary C++ implementation (Kernels, Refinement, Error Metrics) ensuring no dependency on external "black-box" libraries.
 
-**Status:** `PRODUCTION READY` 🔴🗝️⚙️🔥
+🔴**Status:** `PRODUCTION READY` 🔴
 ---
 
 <div align="center">
