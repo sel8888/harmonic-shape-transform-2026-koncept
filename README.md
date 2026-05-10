@@ -83,6 +83,7 @@ The synergy of the `CHAIN` pipeline demonstrates consistent improvement over bas
 * **100% Custom IP:** Entirely proprietary C++ implementation (Kernels, Refinement, Error Metrics) ensuring no dependency on external "black-box" libraries.
 
 🔴**Status:** `PRODUCTION READY` 🔴
+[hst_pipeline_v5_gpu.csv](https://github.com/user-attachments/files/27567422/hst_pipeline_v5_gpu.csv)
 ---
 
 <div align="center">
