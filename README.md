@@ -35,6 +35,8 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
+"My research on the HST-FM-ZO pipeline is already archived on Zenodo and has gained 80+ downloads from the community in a short time. I am now seeking endorsement for ArXiv (cs.GR/cs.CV) to formalize these findings, especially the new 1.1s GPU implementation."
+
 ---
 
 > "Simplicity is the ultimate sophistication."  
