@@ -197,6 +197,9 @@ Results are **hardware-independent**.
 
 ### Raw Data
 
+<img width="2700" height="2439" alt="hst_spectral_analysis_" src="https://github.com/user-attachments/assets/ee7279e4-050f-4b98-bf3e-f201f069afe6" />
+
+
 | File | Description |
 |------|-------------|
 | [hst_faust_full_benchmark.csv](hst_faust_full_benchmark.csv) | CPU (99 pairs) |
