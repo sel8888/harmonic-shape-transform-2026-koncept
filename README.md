@@ -52,7 +52,7 @@ The Solution was Hidden in Plain Sight.
 For 14 years, the field focused on the complexity of the surface. HST looks at the integrity of the volume. It is not just an optimization; it is a physical constant of the shape. If you use this code and it saves you hours of work, the only thing missing is formal recognition.
 
 
-# Spectral Correspondence Engine v5 (C++/GPU)
+# Spectral Correspondence HST Hybrid Engine v5 (C++/GPU)
 
 ## 🚀 Research Summary: HST → FMaps → ZoomOut
 
