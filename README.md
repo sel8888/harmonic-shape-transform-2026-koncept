@@ -446,3 +446,14 @@ Pavel Krahulík 📩 pavel.krahulik.cestiny@gmail.com
 Copyright Notice
 
 Copyright © 2024-2026 Pavel Krahulík. All rights reserved. The author reserves all rights to pursue patent protection and legal action against unauthorized commercial use.
+
+@inproceedings{Bogo:CVPR:2014,
+      title = {{FAUST}: Dataset and evaluation for {3D} mesh registration},
+      author = {Bogo, Federica and Romero, Javier and Loper, Matthew and Black, Michael J.},
+      booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+      address = {Piscataway, NJ, USA},
+      publisher = {IEEE},
+      month = jun,
+      year = {2014}
+    }
+    
