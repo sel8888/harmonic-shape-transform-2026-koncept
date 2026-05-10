@@ -197,7 +197,6 @@ Results are **hardware-independent**.
 
 ### Raw Data
 
-<img width="2700" height="2439" alt="hst_spectral_analysis_" src="https://github.com/user-attachments/assets/ee7279e4-050f-4b98-bf3e-f201f069afe6" />
 
 
 | File | Description |
@@ -231,6 +230,7 @@ tiebreak_tol = 0.001
 </table>
 
 ---
+<img width="2700" height="2439" alt="hst_spectral_analysis_" src="https://github.com/user-attachments/assets/ee7279e4-050f-4b98-bf3e-f201f069afe6" />
 
 <img width="2191" height="1388" alt="hst_cpu_gpu_comparison" src="https://github.com/user-attachments/assets/e182160c-2236-46df-b712-dda9eab63076" />
 <img width="2434" height="1910" alt="hst_complete_benchmark" src="https://github.com/user-attachments/assets/245921e2-672c-494a-8b30-422ce1c7fc7b" />
