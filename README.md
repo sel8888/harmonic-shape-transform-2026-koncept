@@ -35,6 +35,8 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
+**"7 days of public development are complete; I am now moving to private research. Thanks to everyone."**
+
 ## 🌍 World Premiere — Pre-release Binaries
 
 The first public release of HST Pipeline v5 — the first C++ implementation
