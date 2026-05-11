@@ -41,6 +41,8 @@ The first public release of HST Pipeline v5 — the first C++ implementation
 of ZoomOut + Functional Maps initialized with Harmonic Shape Transform,
 tested on 99 FAUST pairs with zero failures.
 
+📦 **Download:** [v5.0 HYBRID Pre-release](https://github.com/sel8888/harmonic-shape-transform-2026-koncept/releases/tag/5.0_HYBRID)
+
 ### Download
 
 | Binary | Platform | Requirements |
@@ -61,8 +63,6 @@ chmod +x hst_pipeline_v5_gpu
 # GPU
 ./hst_pipeline_v5_gpu --faust /path/to/faust/
 ```
-
-### Options
 
 "My research on the HST-FM-ZO pipeline is already archived on Zenodo and has gained 80+ downloads from the community in a short time. I am now seeking endorsement for ArXiv (cs.GR/cs.CV) to formalize these findings, especially the new 1.1s GPU implementation."
 
