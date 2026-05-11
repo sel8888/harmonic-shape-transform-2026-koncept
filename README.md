@@ -75,7 +75,7 @@ One of the most significant advantages of HST (Harmonic Shape Transform) is that
 <img width="1730" height="1248" alt="hst_notes_annotated" src="https://github.com/user-attachments/assets/2f3f0521-3198-4a56-916e-8ed94f245c62" />
 
 
-"My research on the HST-FM-ZO pipeline is already archived on Zenodo and has gained 80+ downloads from the community in a short time. I am now seeking endorsement for ArXiv (cs.GR/cs.CV) to formalize these findings, especially the new 1.1s GPU implementation."
+"My research on the HST-FM-ZO pipeline is already archived on Zenodo and has gained 120+ downloads from the community in a short time. I am now seeking endorsement for ArXiv (cs.GR/cs.CV) to formalize these findings, especially the new 1.1s GPU implementation."
 
 ---
 
