@@ -66,6 +66,12 @@ chmod +x hst_pipeline_v5_gpu
 ./hst_pipeline_v5_gpu --faust /path/to/faust/
 ```
 
+Zero-Dataset Architecture
+
+One of the most significant advantages of HST (Harmonic Shape Transform) is that it operates entirely without a pre-trained dataset.
+
+    "The reason it works without a dataset is simple: Nature already contains the dataset — within the shape itself."
+
 <img width="1730" height="1248" alt="hst_notes_annotated" src="https://github.com/user-attachments/assets/2f3f0521-3198-4a56-916e-8ed94f245c62" />
 
 
