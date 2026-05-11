@@ -12,7 +12,7 @@ PRIVATE WORK CSV C++ GPU 99 Pairs
 
 ## Performance & Domain Specificity
 
-The HST (Harmonic Surface Tracking) algorithm is specifically optimized for **organic and biological geometries**.
+The HST (Harmonic Surface Transform) algorithm is specifically optimized for **organic and biological geometries**.
 
 *   **Organic Shapes (Humans, Animals):** Excellent performance with minimal error rates. The harmonic bases perfectly capture the smooth manifold structure of biological entities.
 *   **Non-Natural Shapes (Furniture, Planes, Boxes):** Higher error rates (approx. 0.3) are expected. This is due to the sharp edges and non-smooth transitions characteristic of man-made objects, which can cause instability in spectral harmonic functions.
