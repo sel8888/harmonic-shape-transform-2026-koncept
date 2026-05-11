@@ -8,6 +8,9 @@ PRIVATE WORK CSV C++ GPU 99 Pairs
 [hst_pipeline_v5_gpu.csv](https://github.com/user-attachments/files/27567422/hst_pipeline_v5_gpu.csv)
 
 
+<img width="1216" height="876" alt="HARMONIC_Image_BROTHERS" src="https://github.com/user-attachments/assets/3d03947f-11bc-4a2d-94b3-a858a768b908" />
+
+
 ## Summary
 
 ## Performance & Domain Specificity
