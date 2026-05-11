@@ -24,7 +24,7 @@
   </a>
 </p>
 
-<h1 align="center">Harmonic Shape Transform (HST)</h1>
+<h1 align="center">Harmonic Shape Transform (HST) 0.12949</h1>
 
 
 
