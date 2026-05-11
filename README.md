@@ -37,7 +37,7 @@ Other methods ring louder when they start from this note.</h3>
 
 **"7 days of public development are complete; I am now moving to private research. Thanks to everyone."**
 
-## 🌍 World Premiere — Pre-release Binaries
+## 🌍 World Premiere — Pre-release Binaries + APIv1 - MISSION COMPLETED
 
 The first public release of HST Pipeline v5 — the first C++ implementation
 of ZoomOut + Functional Maps initialized with Harmonic Shape Transform,
