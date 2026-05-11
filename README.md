@@ -35,6 +35,35 @@ Other methods ring louder when they start from this note.</h3>
 
 ### A New Concept for Shape Transformation Using Harmonic Notes
 
+## 🌍 World Premiere — Pre-release Binaries
+
+The first public release of HST Pipeline v5 — the first C++ implementation
+of ZoomOut + Functional Maps initialized with Harmonic Shape Transform,
+tested on 99 FAUST pairs with zero failures.
+
+### Download
+
+| Binary | Platform | Requirements |
+|--------|----------|--------------|
+| `hst_pipeline_v5_static` | Linux x86_64 | None — runs anywhere |
+| `hst_pipeline_v5_gpu` | Linux x86_64 | NVIDIA GPU + driver ≥ 450 |
+
+### Usage
+
+```bash
+# Make executable
+chmod +x hst_pipeline_v5_static
+chmod +x hst_pipeline_v5_gpu
+
+# CPU (static — no dependencies)
+./hst_pipeline_v5_static --faust /path/to/faust/
+
+# GPU
+./hst_pipeline_v5_gpu --faust /path/to/faust/
+```
+
+### Options
+
 "My research on the HST-FM-ZO pipeline is already archived on Zenodo and has gained 80+ downloads from the community in a short time. I am now seeking endorsement for ArXiv (cs.GR/cs.CV) to formalize these findings, especially the new 1.1s GPU implementation."
 
 ---
