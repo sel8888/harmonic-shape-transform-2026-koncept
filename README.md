@@ -65,6 +65,7 @@ chmod +x hst_pipeline_v5_gpu
 # GPU
 ./hst_pipeline_v5_gpu --faust /path/to/faust/
 ```
+
 <img width="1730" height="1248" alt="hst_notes_annotated" src="https://github.com/user-attachments/assets/2f3f0521-3198-4a56-916e-8ed94f245c62" />
 
 
