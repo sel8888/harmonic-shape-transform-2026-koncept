@@ -66,6 +66,9 @@ chmod +x hst_pipeline_v5_gpu
 ./hst_pipeline_v5_gpu --faust /path/to/faust/
 ```
 
+<img width="2549" height="1253" alt="API_v2_2026-05-11 15-23-40-685" src="https://github.com/user-attachments/assets/68367a40-7f2a-4561-aca2-6154a69a48b5" />
+
+
 "My research on the HST-FM-ZO pipeline is already archived on Zenodo and has gained 80+ downloads from the community in a short time. I am now seeking endorsement for ArXiv (cs.GR/cs.CV) to formalize these findings, especially the new 1.1s GPU implementation."
 
 ---
