@@ -95,7 +95,7 @@ For 14 years, the field focused on the complexity of the surface. HST looks at t
 
 # Spectral Correspondence HST Hybrid Engine v5 (C++/GPU)
 
-## 🚀 Research Summary: HST → FMaps → ZoomOut
+## Research Summary: HST → FMaps → ZoomOut
 
 Final benchmark results on the **FAUST dataset (99 pairs)** using a custom-built, low-level C++ engine with hybrid CPU/GPU acceleration.
 
