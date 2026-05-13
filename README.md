@@ -26,7 +26,7 @@
 
 <h1 align="center">Harmonic Shape Transform (HST) 0.12949</h1>
 
-
+All results in this repository are independently reproducible.
 
 <h3 align="center">Strike a 3D shape like a bell — it rings its harmonic note.
 That note encodes the shape's intrinsic structure.
