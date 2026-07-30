@@ -40,6 +40,10 @@ $$\dim \ker \Delta_{\text{atom}} = b_0(\mathcal{M}_{\text{mol}}) \implies \left(
 ## 3. Celestial Mechanics & Grid Systems
 $$\dim \ker \Delta_{\text{astro}} = b_0(\mathcal{M}_{\text{grid}}) \implies \left( \mathcal{H}_{\text{astro}}[\Psi] = \sum_{i=1}^{N_{\text{grid}}} \langle \Psi, \Phi_i \rangle \Phi_i \right) \text{ Stable} \iff b_0 = 1$$
 
+## 4. Universal Spectroscopy & Spectral Expansion
+
+$$\dim \ker \Delta_{\text{spec}} = b_0(\mathcal{M}_{\text{spec}}) \implies \left( \mathcal{H}_{\text{spec}}[f] = \sum_{n=0}^{\infty} \langle f, \psi_n \rangle \psi_n \right) \text{ Stable} \iff b_0 = 1$$
+
 ---
 
 ## Description of Components
