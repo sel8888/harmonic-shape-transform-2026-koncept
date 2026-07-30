@@ -28,6 +28,8 @@
 
 # Topological Stability Criterion for Harmonic Shape Transform (HST)
 
+$$\dim \ker \Delta = b_0(M) \implies \left( \mathcal{H}[f] = \sum_{k=0}^{\infty} \langle f, \phi_k \rangle \phi_k \right) \text{ Stable} \iff b_0 = 1$$
+
 # Unified Topological-Spectral Framework (HST)
 
 ## 1. General Universal Equation
