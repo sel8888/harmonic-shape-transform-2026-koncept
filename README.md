@@ -45,7 +45,7 @@ $$\dim \ker \Delta_{\text{astro}} = b_0(\mathcal{M}_{\text{grid}}) \implies \lef
 ## Description of Components
 
 1. **Topological Foundation ($\dim \ker \Delta = b_0(M)$):** 
-   Connects local analysis (the kernel of the operator/Laplacian) with global topology and the connectedness of the space (the Betti number).
+   Connects local analysis (the kernel of the operator) with global topology and the connectedness of the space (the Betti number).
 
 2. **Harmonic Shape Transform ($\mathcal{H}[\Psi]$):** 
    Spectral decomposition using an orthonormal basis of eigenfunctions $\Phi$:
