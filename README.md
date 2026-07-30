@@ -26,6 +26,31 @@
 
 <h1 align="center">Harmonic Shape Transform (HST) 0.12949</h1>
 
+# Topological Stability Criterion for Harmonic Shape Transform (HST)
+
+$$\dim \ker \Delta = b_0(M) \implies \text{HST Stable} \iff b_0 = 1$$
+
+## Overview
+
+This criterion replaces vague quantitative limitations (such as $\lambda_1 \to 0$ or loose notions of "eigenspace degeneracy") with a strict, topological definition of stability for the **Harmonic Shape Transform (HST)**. 
+
+### Core Theorem
+
+For any compact Riemannian manifold $M$:
+
+$$\dim \ker \Delta = b_0(M)$$
+
+where $b_0(M)$ represents the 0th Betti number (the number of connected components of the manifold).
+
+### Stability Condition
+
+* **$b_0 = 1$ (Stable):** The manifold is connected. The first non-trivial eigenfunctions possess proper gradient and level-set structures, allowing HST to map shapes reliably.
+* **$b_0 > 1$ (Unstable / Failure):** The manifold is disconnected. The kernel becomes multidimensional, and the "first non-trivial eigenfunction" collapses into a locally constant function across components with **no gradient**. Without a gradient or level-set structure, the HST framework completely breaks down.
+
+### Key Implication
+
+Stability is **strictly topological, not metric**. A small spectral gap ($\lambda_1$) does *not* inherently cause failure—as demonstrated by the trefoil knot ($\lambda_1 = 0.048$), which yields optimal residuals because its $b_0 = 1$ topology remains intact. Conversely, any multi-component space ($b_0 > 1$) guarantees failure regardless of metric
+
 All results in this repository are independently reproducible.
 
 <h3 align="center">Strike a 3D shape like a bell — it rings its harmonic note.
