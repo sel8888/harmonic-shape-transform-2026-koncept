@@ -30,11 +30,6 @@
 
 $$\dim \ker \Delta = b_0(M) \implies \text{HST Stable} \iff b_0 = 1$$
 
-## Overview
-
-This criterion replaces vague quantitative limitations (such as $\lambda_1 \to 0$ or loose notions of "eigenspace degeneracy") with a strict, topological definition of stability for the **Harmonic Shape Transform (HST)**. 
-
-
 All results in this repository are independently reproducible.
 
 <h3 align="center">Strike a 3D shape like a bell — it rings its harmonic note.
