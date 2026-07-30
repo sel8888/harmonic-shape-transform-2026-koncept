@@ -49,7 +49,7 @@ where $b_0(M)$ represents the 0th Betti number (the number of connected componen
 
 ### Key Implication
 
-Stability is **strictly topological, not metric**. A small spectral gap ($\lambda_1$) does *not* inherently cause failure—as demonstrated by the trefoil knot ($\lambda_1 = 0.048$), which yields optimal residuals because its $b_0 = 1$ topology remains intact. Conversely, any multi-component space ($b_0 > 1$) guarantees failure regardless of metric
+Stability is **strictly topological, not metric**. A small spectral gap ($\lambda_1$) does *not* inherently cause failure—as demonstrated by the trefoil knot ($\lambda_1 = 0.048$), which yields optimal residuals because its $b_0 = 1$ topology remains intact. Conversely, any multi-component space ($b_0 > 1$) guarantees failure regardless of metric fine-tuning.
 
 All results in this repository are independently reproducible.
 
