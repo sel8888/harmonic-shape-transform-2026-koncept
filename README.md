@@ -28,25 +28,32 @@
 
 # Topological Stability Criterion for Harmonic Shape Transform (HST)
 
-$$\dim \ker \Delta = b_0(M) \implies \text{HST Stable} \iff b_0 = 1$$
-
 # Unified Topological-Spectral Framework (HST)
 
+## 1. General Universal Equation
 $$\dim \ker \Delta_{\mathcal{G}} = b_0(\mathcal{M}) \implies \left( \mathcal{H}[\Psi] = \sum_{k=0}^{\infty} \langle \Psi, \Phi_k \rangle \Phi_k \right) \text{ Stable} \iff b_0 = 1$$
 
+## 2. Atomic & Molecular World (e.g., HCl Vibration)
 $$\dim \ker \Delta_{\text{atom}} = b_0(\mathcal{M}_{\text{mol}}) \implies \left( \mathcal{H}_{\text{mol}}[\Psi] = \sum_{v=0}^{v_{\max}} \langle \Psi, \Phi_v \rangle \Phi_v \right) \text{ Stable} \iff b_0 = 1$$
 
-## Description
+## 3. Celestial Mechanics & Grid Systems
+$$\dim \ker \Delta_{\text{astro}} = b_0(\mathcal{M}_{\text{grid}}) \implies \left( \mathcal{H}_{\text{astro}}[\Psi] = \sum_{i=1}^{N_{\text{grid}}} \langle \Psi, \Phi_i \rangle \Phi_i \right) \text{ Stable} \iff b_0 = 1$$
 
-### Topological Foundation ($\dim \ker \Delta = b_0(M)$)
-Connects local analysis (the kernel of the operator) with global topology and the connectedness of the space (the Betti number).
+---
 
-### Harmonic Shape Transform ($H[\Psi]$)
-Spectral decomposition using an orthonormal basis of eigenfunctions $\Phi_k$ (or $\Phi_v$). In the atomic version, the series is bounded by an upper limit $v_{\max}$ corresponding to the dissociation limit (a hard physical boundary).
+## Description of Components
 
-### Stability Condition ($\iff b_0 = 1$)
-Guarantees that the transform and the entire structure remain stable if and only if the space is topologically connected (a single component). Once the space breaks apart (e.g., molecular dissociation or grid collapse), $b_0 \neq 1$ and the system loses stability.
+1. **Topological Foundation ($\dim \ker \Delta = b_0(M)$):** 
+   Connects local analysis (the kernel of the operator/Laplacian) with global topology and the connectedness of the space (the Betti number).
 
+2. **Harmonic Shape Transform ($\mathcal{H}[\Psi]$):** 
+   Spectral decomposition using an orthonormal basis of eigenfunctions $\Phi$:
+   * *General:* Infinite or continuous series representation.
+   * *Atomic:* Bounded by an upper limit $v_{\max}$ corresponding to the dissociation limit (a hard physical boundary where the molecule breaks apart).
+   * *Astro/Grid:* Mapped across the finite set of valid resonance layers and generators (e.g., solar-lunar cycles).
+
+3. **Stability Condition ($\iff b_0 = 1$):** 
+   Guarantees that the transform and the entire structure remain stable if and only if the space is topologically connected ($b_0 = 1$). Once the space breaks apart (e.g., molecular dissociation, grid collapse, or loss of resonance), $b_0 \neq 1$ and the system loses stability.
 
 All results in this repository are independently reproducible.
 
