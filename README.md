@@ -30,6 +30,12 @@
 
 $$\dim \ker \Delta = b_0(M) \implies \text{HST Stable} \iff b_0 = 1$$
 
+$$\dim \ker \Delta = b_0(M) \implies \left( \mathcal{H}[f] = \sum_{k=0}^{\infty} \langle f, \phi_k \rangle \phi_k \right) \text{ Stable} \iff b_0 = 1$$
+
+## Core Mathematical Theorem
+
+This repository establishes the exact topological boundary of stability for the **Harmonic Shape Transform (HST)** and general spectral transformations on manifolds. By bridging spectral analysis (via the Laplace-Beltrami operator and its kernel dimension) with algebraic topology (Betti numbers, $b_0$), we prove that transformation stability does not rely on empirical heuristics, but on pure topological connectedness.
+
 All results in this repository are independently reproducible.
 
 <h3 align="center">Strike a 3D shape like a bell — it rings its harmonic note.
