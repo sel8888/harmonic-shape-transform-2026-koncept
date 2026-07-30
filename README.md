@@ -32,6 +32,15 @@ $$\dim \ker \Delta = b_0(M) \implies \text{HST Stable} \iff b_0 = 1$$
 
 $$\dim \ker \Delta = b_0(M) \implies \left( \mathcal{H}[f] = \sum_{k=0}^{\infty} \langle f, \phi_k \rangle \phi_k \right) \text{ Stable} \iff b_0 = 1$$
 
+1. **Geometric Shape Transform Stability:**
+   $$\dim \ker \Delta = b_0(M) \implies \text{HST Stable} \iff b_0 = 1$$
+
+2. **Full Spectral Expansion & Operator Definition:**
+   $$\dim \ker \Delta = b_0(M) \implies \left( \Delta \phi_k = \lambda_k \phi_k, \quad \lambda_0 = 0 \right) \text{ Stable} \iff b_0 = 1$$
+
+3. **Celestial Mechanics & Phase Space Extension:**
+   $$\dim \ker \Delta_{\mathcal{G}} = b_0(\mathcal{M}_{\text{phase}}) \implies \left( \mathcal{H}_{\text{orb}}[\Psi] = \sum_{k=0}^{\infty} \langle \Psi, \Phi_k \rangle \Phi_k \right) \text{ Stable} \iff b_0 = 1$$
+
 ## Core Mathematical Theorem
 
 This repository establishes the exact topological boundary of stability for the **Harmonic Shape Transform (HST)** and general spectral transformations on manifolds. By bridging spectral analysis (via the Laplace-Beltrami operator and its kernel dimension) with algebraic topology (Betti numbers, $b_0$), we prove that transformation stability does not rely on empirical heuristics, but on pure topological connectedness.
