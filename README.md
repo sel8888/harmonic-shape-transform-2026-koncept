@@ -38,14 +38,14 @@ $$\dim \ker \Delta_{\text{atom}} = b_0(\mathcal{M}_{\text{mol}}) \implies \left(
 
 ## Description
 
-1. **Topological Foundation ($\dim \ker \Delta = b_0(M)$):** 
-   Connects local analysis (the kernel of the operator) with global topology and the connectedness of the space (the Betti number).
+### Topological Foundation ($\dim \ker \Delta = b_0(M)$)
+Connects local analysis (the kernel of the operator) with global topology and the connectedness of the space (the Betti number).
 
-2. **Harmonic Shape Transform ($\mathcal{H}[\Psi]$):** 
-   Spectral decomposition using an orthonormal basis of eigenfunctions $\Phi_k$ (or $\Phi_v$). In the atomic version, the series is bounded by an upper limit $v_{\max}$ corresponding to the dissociation limit (a hard physical boundary).
+### Harmonic Shape Transform ($H[\Psi]$)
+Spectral decomposition using an orthonormal basis of eigenfunctions $\Phi_k$ (or $\Phi_v$). In the atomic version, the series is bounded by an upper limit $v_{\max}$ corresponding to the dissociation limit (a hard physical boundary).
 
-3. **Stability Condition ($\iff b_0 = 1$):** 
-   Guarantees that the transform and the entire structure remain stable if and only if the space is topologically connected (a single component). Once the space breaks apart (e.g., molecular dissociation or grid collapse), $b_0 \neq 1$ and the system loses stability.
+### Stability Condition ($\iff b_0 = 1$)
+Guarantees that the transform and the entire structure remain stable if and only if the space is topologically connected (a single component). Once the space breaks apart (e.g., molecular dissociation or grid collapse), $b_0 \neq 1$ and the system loses stability.
 
 
 All results in this repository are independently reproducible.
