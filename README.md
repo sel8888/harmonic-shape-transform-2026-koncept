@@ -39,7 +39,7 @@ $$\dim \ker \Delta = b_0(M) \implies \left( \mathcal{H}[f] = \sum_{k=0}^{\infty}
    $$\dim \ker \Delta = b_0(M) \implies \left( \Delta \phi_k = \lambda_k \phi_k, \quad \lambda_0 = 0 \right) \text{ Stable} \iff b_0 = 1$$
 
 3. **Celestial Mechanics & Phase Space Extension:**
-   $$\dim \ker \Delta_{\mathcal{G}} = b_0(\mathcal{M}_{\text{phase}}) \implies \left( \mathcal{H}_{\text{orb}}[\Psi] = \sum_{k=0}^{\infty} \langle \Psi, \Phi_k \rangle \Phi_k \right) \text{ Stable} \iff b_0 = 1$$
+  $$\dim \ker \Delta_{\mathcal{G}} = b_0(\mathcal{M}_{\text{phase}}) \implies \left( \mathcal{H}_{\text{orb}}[\Psi] = \sum_{k=0}^{\infty} \langle \Psi, \Phi_k \rangle \Phi_k \right) \text{ Stable} \iff b_0 = 1$$
 
 ## Core Mathematical Theorem
 
