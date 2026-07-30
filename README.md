@@ -32,7 +32,7 @@ $$\dim \ker \Delta = b_0(M) \implies \text{HST Stable} \iff b_0 = 1$$
 # Unified Topological-Spectral Framework (HST)
 
 ## 1. General Universal Equation
-$$\dim \ker \mathcal{G} = b_0(\mathcal{M}) \implies \left( \mathcal{H}[\Psi] = \sum_{k=0}^{\infty} \langle \Psi, \Phi_k \rangle \Phi_k \right) \text{ Stable} \iff b_0 = 1$$
+$$\dim \ker \Delta_{\mathcal{G}} = b_0(\mathcal{M}) \implies \left( \mathcal{H}[\Psi] = \sum_{k=0}^{\infty} \langle \Psi, \Phi_k \rangle \Phi_k \right) \text{ Stable} \iff b_0 = 1$$
 
 ## 2. Atomic & Molecular World (e.g., HCl Vibration)
 $$\dim \ker \Delta_{\text{atom}} = b_0(\mathcal{M}_{\text{mol}}) \implies \left( \mathcal{H}_{\text{mol}}[\Psi] = \sum_{v=0}^{v_{\max}} \langle \Psi, \Phi_v \rangle \Phi_v \right) \text{ Stable} \iff b_0 = 1$$
