@@ -16,9 +16,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 
-# ─────────────────────────────────────────────
-# 1. LAPLACEOVA MATICE A MASS MATICE
-# ─────────────────────────────────────────────
+
 
 def cotan(a, b):
     return np.dot(a, b) / (np.linalg.norm(np.cross(a, b)) + 1e-12)
@@ -50,9 +48,7 @@ def build_laplacian_and_mass(vertices, faces):
     return L, M
 
 
-# ─────────────────────────────────────────────
-# 2. HARMONICKÉ NÓTY
-# ─────────────────────────────────────────────
+
 
 def compute_harmonic_notes(vertices, faces, n_notes=6):
     L, M = build_laplacian_and_mass(vertices, faces)
@@ -72,9 +68,6 @@ def normalize_to_01(v):
     return (v - v.min()) / (v.max() - v.min() + 1e-12)
 
 
-# ─────────────────────────────────────────────
-# 3. HST MAPOVÁNÍ
-# ─────────────────────────────────────────────
 
 def hst_map(vertices_a, note_a, vertices_b, note_b):
     mapped = np.zeros_like(vertices_a)
